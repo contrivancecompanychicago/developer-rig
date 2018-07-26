@@ -40,7 +40,6 @@ describe('<ExtensionFrame />', () => {
       'action': 'extension-frame-init',
       'extension': {
         'anchor': 'panel',
-        'channelId': 'channelId',
         'extension': {
           'anchor': 'panel',
           'authorName': 'test',
@@ -103,7 +102,6 @@ describe('<ExtensionFrame />', () => {
       'action': 'extension-frame-init',
       'extension': {
         'anchor': 'mobile',
-        'channelId': 'channelId',
         'extension': {
           'anchor': 'panel',
           'authorName': 'test',

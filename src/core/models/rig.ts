@@ -40,7 +40,6 @@ export type RigExtension = ExtensionManifest & {
   clientId?: string;
   token: string;
   channelId: string;
-  bitsEnabled: boolean;
 };
 
 const idSource: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';

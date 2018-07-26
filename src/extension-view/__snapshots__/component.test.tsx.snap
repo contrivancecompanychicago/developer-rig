@@ -134,6 +134,7 @@ ShallowWrapper {
 </div>,
         <ExtensionComponentView
           bindIframeToParent={[Function]}
+          channelId={undefined}
           className="view"
           extension={
                     Object {
@@ -355,6 +356,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "bindIframeToParent": [Function],
+          "channelId": undefined,
           "className": "view",
           "extension": Object {
             "anchor": "panel",
@@ -474,6 +476,7 @@ ShallowWrapper {
 </div>,
           <ExtensionComponentView
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -695,6 +698,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -924,6 +928,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -1116,6 +1121,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -1198,6 +1204,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -1315,6 +1322,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -1507,6 +1515,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -1589,6 +1598,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -1813,6 +1823,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -2002,6 +2013,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -2084,6 +2096,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -2201,6 +2214,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -2390,6 +2404,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -2472,6 +2487,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -2694,6 +2710,7 @@ ShallowWrapper {
 </div>,
         <ExtensionMobileView
           bindIframeToParent={[Function]}
+          channelId={undefined}
           className="view"
           extension={
                     Object {
@@ -2916,6 +2933,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "bindIframeToParent": [Function],
+          "channelId": undefined,
           "className": "view",
           "extension": Object {
             "anchor": "panel",
@@ -3036,6 +3054,7 @@ ShallowWrapper {
 </div>,
           <ExtensionMobileView
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -3258,6 +3277,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -3488,6 +3508,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -3677,6 +3698,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -3759,6 +3781,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -3876,6 +3899,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -4065,6 +4089,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -4147,6 +4172,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -4372,6 +4398,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -4563,6 +4590,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -4645,6 +4673,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -4763,6 +4792,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -4954,6 +4984,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -5036,6 +5067,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -5261,6 +5293,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -5452,6 +5485,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -5534,6 +5568,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -5652,6 +5687,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -5843,6 +5879,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -5925,6 +5962,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -6149,6 +6187,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -6338,6 +6377,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -6420,6 +6460,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -6537,6 +6578,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -6726,6 +6768,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -6808,6 +6851,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -7032,6 +7076,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -7221,6 +7266,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -7303,6 +7349,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -7420,6 +7467,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -7609,6 +7657,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -7691,6 +7740,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -7916,6 +7966,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -8107,6 +8158,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -8189,6 +8241,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -8307,6 +8360,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -8498,6 +8552,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -8580,6 +8635,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -8805,6 +8861,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -8996,6 +9053,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -9078,6 +9136,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -9196,6 +9255,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -9387,6 +9447,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -9469,6 +9530,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -9693,6 +9755,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -9882,6 +9945,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -9964,6 +10028,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -10081,6 +10146,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -10270,6 +10336,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -10352,6 +10419,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",
@@ -10562,6 +10630,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={[Function]}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -10737,6 +10806,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={[Function]}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -10805,6 +10875,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": [Function],
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
@@ -10908,6 +10979,7 @@ ShallowWrapper {
 >
             <ExtensionFrame
                         bindIframeToParent={[Function]}
+                        channelId={undefined}
                         className="view"
                         extension={
                                     Object {
@@ -11083,6 +11155,7 @@ ShallowWrapper {
           "props": Object {
             "children": <ExtensionFrame
               bindIframeToParent={[Function]}
+              channelId={undefined}
               className="view"
               extension={
                             Object {
@@ -11151,6 +11224,7 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "bindIframeToParent": [Function],
+              "channelId": undefined,
               "className": "view",
               "extension": Object {
                 "anchor": "panel",

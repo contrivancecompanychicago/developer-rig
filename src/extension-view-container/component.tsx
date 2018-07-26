@@ -28,6 +28,7 @@ export class ExtensionViewContainer extends React.Component<Props> {
         return <ExtensionView
           key={view.id}
           id={view.id}
+          channelId={view.extension.channelId}
           extension={view.extension}
           type={view.type}
           mode={view.mode}

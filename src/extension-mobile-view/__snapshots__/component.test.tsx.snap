@@ -110,6 +110,7 @@ ShallowWrapper {
 >
         <ExtensionFrame
                 bindIframeToParent={undefined}
+                channelId={undefined}
                 className="view"
                 extension={
                         Object {
@@ -195,6 +196,7 @@ ShallowWrapper {
       "props": Object {
         "children": <ExtensionFrame
           bindIframeToParent={undefined}
+          channelId={undefined}
           className="view"
           extension={
                     Object {
@@ -278,6 +280,7 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "bindIframeToParent": undefined,
+          "channelId": undefined,
           "className": "view",
           "extension": Object {
             "anchor": "panel",
@@ -371,6 +374,7 @@ ShallowWrapper {
 >
           <ExtensionFrame
                     bindIframeToParent={undefined}
+                    channelId={undefined}
                     className="view"
                     extension={
                               Object {
@@ -456,6 +460,7 @@ ShallowWrapper {
         "props": Object {
           "children": <ExtensionFrame
             bindIframeToParent={undefined}
+            channelId={undefined}
             className="view"
             extension={
                         Object {
@@ -539,6 +544,7 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "bindIframeToParent": undefined,
+            "channelId": undefined,
             "className": "view",
             "extension": Object {
               "anchor": "panel",
