@@ -39,8 +39,6 @@ describe('<RigNavComponent />', () => {
       tab.simulate('click');
     });
     expect(wrapper.instance().props.viewerHandler).toHaveBeenCalled();
-    expect(wrapper.instance().props.configHandler).toHaveBeenCalled();
-    expect(wrapper.instance().props.liveConfigHandler).toHaveBeenCalled();
     expect(wrapper.instance().props.openProductManagementHandler).toHaveBeenCalled();
   });
 
@@ -48,18 +46,6 @@ describe('<RigNavComponent />', () => {
     const { wrapper } = setupRenderer({
       selectedView: ExtensionViews,
     });
-    expect(wrapper.find('.top-nav-item__selected')).toHaveLength(1);
-
-    wrapper.setProps({
-      selectedView: BroadcasterConfig,
-    });
-    wrapper.update();
-    expect(wrapper.find('.top-nav-item__selected')).toHaveLength(1);
-
-    wrapper.setProps({
-      selectedView: LiveConfig,
-    });
-    wrapper.update();
     expect(wrapper.find('.top-nav-item__selected')).toHaveLength(1);
 
     wrapper.setProps({

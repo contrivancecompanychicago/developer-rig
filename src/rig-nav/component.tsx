@@ -13,8 +13,6 @@ export interface PublicProps {
   openProductManagementHandler: Function,
   openConfigurationsHandler: Function,
   viewerHandler: Function,
-  configHandler: Function,
-  liveConfigHandler: Function,
   selectedView: string,
   error: string,
 }
@@ -77,18 +75,12 @@ export class RigNavComponent extends React.Component<Props> {
               <span>{manifest.name}</span>
             </div>}
             <div className='top-nav-item__login'>
-              {(session && session.login) ? <UserDropdown session={session} /> : <LoginButton/>}
+              {(session && session.login) ? <UserDropdown session={session} /> : <LoginButton />}
             </div>
           </div>
           <div className='top-nav__item-container'>
             <a className={extensionViewsClass} onClick={(event) => this.props.viewerHandler()}>
               Extension Views
-            </a>
-            <a className={broadcasterConfigClass} onClick={(event) => this.props.configHandler()}>
-              Broadcaster Config
-            </a>
-            <a className={liveConfigClass} onClick={(event) => this.props.liveConfigHandler()}>
-              Live Config
             </a>
             <a className={productManagementClass} onClick={(event) => this.openProductManagementHandler()}>
               Manage Bits Products

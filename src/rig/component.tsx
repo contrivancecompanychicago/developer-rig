@@ -127,39 +127,6 @@ export class RigComponent extends React.Component<Props, State> {
     });
   }
 
-  public configHandler = () => {
-    this.setState({
-      mode: ExtensionMode.Config,
-      selectedView: BroadcasterConfig,
-      extension: createExtensionObject(
-        this.state.manifest,
-        '0',
-        ViewerTypes.Broadcaster,
-        true,
-        this.state.userName,
-        this.state.channelId,
-        this.state.secret,
-        ''),
-    });
-  }
-
-  public liveConfigHandler = () => {
-    this.setState({
-      mode: ExtensionMode.Dashboard,
-      selectedView: LiveConfig,
-
-      extension: createExtensionObject(
-        this.state.manifest,
-        '0',
-        ViewerTypes.Broadcaster,
-        true,
-        this.state.userName,
-        this.state.channelId,
-        this.state.secret,
-        ''),
-    });
-  }
-
   private openProductManagementHandler = () => {
     this.setState({
       selectedView: ProductManagement,
@@ -302,8 +269,6 @@ export class RigComponent extends React.Component<Props, State> {
         <RigNav
           selectedView={this.state.selectedView}
           viewerHandler={this.viewerHandler}
-          configHandler={this.configHandler}
-          liveConfigHandler={this.liveConfigHandler}
           openConfigurationsHandler={this.openConfigurationsHandler}
           openProductManagementHandler={this.openProductManagementHandler}
           error={this.state.error}/>

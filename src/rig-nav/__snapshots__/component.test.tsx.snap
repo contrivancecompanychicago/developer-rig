@@ -134,18 +134,6 @@ ShallowWrapper {
                     className="top-nav-item"
                     onClick={[Function]}
           >
-                    Broadcaster Config
-          </a>
-          <a
-                    className="top-nav-item"
-                    onClick={[Function]}
-          >
-                    Live Config
-          </a>
-          <a
-                    className="top-nav-item"
-                    onClick={[Function]}
-          >
                     Manage Bits Products
           </a>
 </div>,
@@ -316,18 +304,6 @@ ShallowWrapper {
               className="top-nav-item"
               onClick={[Function]}
 >
-              Broadcaster Config
-</a>,
-            <a
-              className="top-nav-item"
-              onClick={[Function]}
->
-              Live Config
-</a>,
-            <a
-              className="top-nav-item"
-              onClick={[Function]}
->
               Manage Bits Products
 </a>,
           ],
@@ -346,32 +322,6 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "Extension Views",
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Broadcaster Config",
-              "className": "top-nav-item",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": "Broadcaster Config",
-            "type": "a",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Live Config",
-              "className": "top-nav-item",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": "Live Config",
             "type": "a",
           },
           Object {
@@ -445,18 +395,6 @@ ShallowWrapper {
                         onClick={[Function]}
             >
                         Extension Views
-            </a>
-            <a
-                        className="top-nav-item"
-                        onClick={[Function]}
-            >
-                        Broadcaster Config
-            </a>
-            <a
-                        className="top-nav-item"
-                        onClick={[Function]}
-            >
-                        Live Config
             </a>
             <a
                         className="top-nav-item"
@@ -632,18 +570,6 @@ ShallowWrapper {
                 className="top-nav-item"
                 onClick={[Function]}
 >
-                Broadcaster Config
-</a>,
-              <a
-                className="top-nav-item"
-                onClick={[Function]}
->
-                Live Config
-</a>,
-              <a
-                className="top-nav-item"
-                onClick={[Function]}
->
                 Manage Bits Products
 </a>,
             ],
@@ -662,32 +588,6 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Extension Views",
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Broadcaster Config",
-                "className": "top-nav-item",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "Broadcaster Config",
-              "type": "a",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Live Config",
-                "className": "top-nav-item",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": "Live Config",
               "type": "a",
             },
             Object {
