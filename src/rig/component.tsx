@@ -41,7 +41,6 @@ interface State {
   version: string;
   channelId: string;
   userName: string;
-  mode: string;
   extensionViews: RigExtensionView[],
   manifest: ExtensionManifest;
   showExtensionsView: boolean;
@@ -58,10 +57,6 @@ interface State {
 type Props = RigProps & ReduxDispatchProps & ReduxStateProps;
 
 export class RigComponent extends React.Component<Props, State> {
-  public refs: {
-    extensionViewDialog: ExtensionViewDialog;
-  }
-
   public state: State = {
     apiHost: process.env.API_HOST || 'api.twitch.tv',
     clientId: process.env.EXT_CLIENT_ID,
@@ -69,7 +64,6 @@ export class RigComponent extends React.Component<Props, State> {
     version: process.env.EXT_VERSION,
     channelId: process.env.EXT_CHANNEL_ID,
     userName: process.env.EXT_USER_NAME,
-    mode: ExtensionMode.Viewer,
     extensionViews: [],
     manifest: {} as ExtensionManifest,
     showExtensionsView: false,
@@ -105,7 +99,7 @@ export class RigComponent extends React.Component<Props, State> {
     });
   }
 
-  public openEditViewHandler = (id:string) => {
+  public openEditViewHandler = (id: string) => {
     this.setState({
       showEditView: true,
       idToEdit: id,
@@ -121,7 +115,6 @@ export class RigComponent extends React.Component<Props, State> {
 
   public viewerHandler = () => {
     this.setState({
-      mode: ExtensionMode.Viewer,
       selectedView: ExtensionViews,
       extension: {} as RigExtension,
     });
@@ -165,55 +158,60 @@ export class RigComponent extends React.Component<Props, State> {
     });
   }
 
-  public getFrameSizeFromDialog(dialogRef: any) {
-    if (dialogRef.state.frameSize === 'Custom') {
+  public getFrameSizeFromDialog(extensionViewDialogState: any) {
+    if (extensionViewDialogState.frameSize === 'Custom') {
       return {
-        width: dialogRef.state.width,
-        height: dialogRef.state.height
+        width: extensionViewDialogState.width,
+        height: extensionViewDialogState.height
       };
     }
-    if (dialogRef.state.extensionViewType === ExtensionViewType.Mobile) {
-      return MobileSizes[dialogRef.state.frameSize];
+    if (extensionViewDialogState.extensionViewType === ExtensionViewType.Mobile) {
+      return MobileSizes[extensionViewDialogState.frameSize];
     }
 
-    return OverlaySizes[dialogRef.state.frameSize];
+    return OverlaySizes[extensionViewDialogState.frameSize];
   }
 
-  public createExtensionView = () => {
+  public createExtensionView = (extensionViewDialogState: any) => {
     const extensionViews = this.getExtensionViews();
-    const linked = this.refs.extensionViewDialog.state.identityOption === IdentityOptions.Linked;
+    const mode = extensionViewDialogState.extensionViewType === ExtensionMode.Config ? ExtensionMode.Config :
+      extensionViewDialogState.extensionViewType === ExtensionMode.Dashboard ? ExtensionMode.Dashboard : ExtensionMode.Viewer;
+    const linked = extensionViewDialogState.identityOption === IdentityOptions.Linked ||
+      extensionViewDialogState.extensionViewType === ExtensionMode.Config ||
+      extensionViewDialogState.extensionViewType === ExtensionMode.Dashboard;
     const nextExtensionViewId = extensionViews.reduce((a: number, b: RigExtensionView) => Math.max(a, parseInt(b.id, 10)), 0) + 1;
     extensionViews.push({
       id: nextExtensionViewId.toString(),
-      type: this.refs.extensionViewDialog.state.extensionViewType,
+      type: extensionViewDialogState.extensionViewType,
       extension: createExtensionObject(
         this.state.manifest,
         nextExtensionViewId.toString(),
-        this.refs.extensionViewDialog.state.viewerType,
+        extensionViewDialogState.viewerType,
         linked,
         this.state.userName,
         this.state.channelId,
         this.state.secret,
-        this.refs.extensionViewDialog.state.opaqueId,
+        extensionViewDialogState.opaqueId,
       ),
-      linked: linked,
-      role: this.refs.extensionViewDialog.state.viewerType,
-      x: this.refs.extensionViewDialog.state.x,
-      y: this.refs.extensionViewDialog.state.y,
-      orientation: this.refs.extensionViewDialog.state.orientation,
-      frameSize: this.getFrameSizeFromDialog(this.refs.extensionViewDialog),
+      linked,
+      mode,
+      role: extensionViewDialogState.viewerType,
+      x: extensionViewDialogState.x,
+      y: extensionViewDialogState.y,
+      orientation: extensionViewDialogState.orientation,
+      frameSize: this.getFrameSizeFromDialog(extensionViewDialogState),
     });
     this.pushExtensionViews(extensionViews);
     this.closeExtensionViewDialog();
   }
 
-  public deleteExtensionView = (id:string) => {
+  public deleteExtensionView = (id: string) => {
     this.pushExtensionViews(this.state.extensionViews.filter(element => element.id !== id));
   }
 
   public editViewHandler = (newViewState: EditViewProps) => {
     const views = this.getExtensionViews();
-    views.forEach((element: RigExtensionView)=> {
+    views.forEach((element: RigExtensionView) => {
       if (element.id === this.state.idToEdit) {
         element.x = newViewState.x;
         element.y = newViewState.y;
@@ -228,7 +226,6 @@ export class RigComponent extends React.Component<Props, State> {
     let view = (
       <div>
         <ExtensionViewContainer
-          mode={this.state.mode}
           extensionViews={this.state.extensionViews}
           deleteExtensionViewHandler={this.deleteExtensionView}
           openExtensionViewHandler={this.openExtensionViewHandler}
@@ -236,7 +233,6 @@ export class RigComponent extends React.Component<Props, State> {
           extension={this.state.extension} />
         {this.state.showExtensionsView &&
           <ExtensionViewDialog
-            ref="extensionViewDialog"
             extensionViews={this.state.manifest.views}
             show={this.state.showExtensionsView}
             closeHandler={this.closeExtensionViewDialog}
@@ -271,7 +267,7 @@ export class RigComponent extends React.Component<Props, State> {
           viewerHandler={this.viewerHandler}
           openConfigurationsHandler={this.openConfigurationsHandler}
           openProductManagementHandler={this.openProductManagementHandler}
-          error={this.state.error}/>
+          error={this.state.error} />
         {view}
       </div>
     );

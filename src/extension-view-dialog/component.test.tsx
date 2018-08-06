@@ -94,7 +94,7 @@ describe('<ExtensionViewDialog />', () => {
 
     it('has the correct selected UI elements', () => {
       expect(wrapper.find('DivOption[value="video_overlay"][checked=true]')).toHaveLength(1);
-      expect(wrapper.find('DivOption[checked=false]')).toHaveLength(1);
+      expect(wrapper.find('DivOption[checked=false]')).toHaveLength(3);
 
       expect(wrapper.find('RadioOption[value="640x480"][checked=true]')).toHaveLength(1);
       expect(wrapper.find('RadioOption[name="frameSize"][checked=false]')).toHaveLength(4);
@@ -126,7 +126,7 @@ describe('<ExtensionViewDialog />', () => {
 
     it('has the correct selected UI elements', () => {
       expect(wrapper.find('DivOption[value="panel"][checked=true]')).toHaveLength(1);
-      expect(wrapper.find('DivOption[checked=false]')).toHaveLength(0);
+      expect(wrapper.find('DivOption[checked=false]')).toHaveLength(2);
 
       expect(wrapper.find('RadioOption[value="Broadcaster"][checked=true]')).toHaveLength(1);
       expect(wrapper.find('RadioOption[name="viewerType"][checked=false]')).toHaveLength(2);
@@ -156,7 +156,7 @@ describe('<ExtensionViewDialog />', () => {
 
     it('has the correct selected UI elements', () => {
       expect(wrapper.find('DivOption[value="component"][checked=true]')).toHaveLength(1);
-      expect(wrapper.find('DivOption[checked=false]')).toHaveLength(0);
+      expect(wrapper.find('DivOption[checked=false]')).toHaveLength(2);
 
       expect(wrapper.find('RadioOption[value="Broadcaster"][checked=true]')).toHaveLength(1);
       expect(wrapper.find('RadioOption[name="viewerType"][checked=false]')).toHaveLength(2);

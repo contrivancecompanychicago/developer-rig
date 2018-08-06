@@ -134,7 +134,6 @@ describe('<RigComponent />', () => {
     const instance = wrapper.instance() as RigComponent;
 
     instance.viewerHandler();
-    expect(instance.state.mode).toBe(ExtensionMode.Viewer);
     expect(instance.state.selectedView).toBe(ExtensionViews);
     expect(instance.state.extension).toEqual({});
   });

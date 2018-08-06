@@ -33,7 +33,6 @@ ShallowWrapper {
                     deleteExtensionViewHandler={[Function]}
                     extension={Object {}}
                     extensionViews={Array []}
-                    mode="viewer"
                     openEditViewHandler={[Function]}
                     openExtensionViewHandler={[Function]}
           />
@@ -70,7 +69,6 @@ ShallowWrapper {
               deleteExtensionViewHandler={[Function]}
               extension={Object {}}
               extensionViews={Array []}
-              mode="viewer"
               openEditViewHandler={[Function]}
               openExtensionViewHandler={[Function]}
 />,
@@ -91,7 +89,6 @@ ShallowWrapper {
               "deleteExtensionViewHandler": [Function],
               "extension": Object {},
               "extensionViews": Array [],
-              "mode": "viewer",
               "openEditViewHandler": [Function],
               "openExtensionViewHandler": [Function],
             },
@@ -145,7 +142,6 @@ ShallowWrapper {
                         deleteExtensionViewHandler={[Function]}
                         extension={Object {}}
                         extensionViews={Array []}
-                        mode="viewer"
                         openEditViewHandler={[Function]}
                         openExtensionViewHandler={[Function]}
             />
@@ -182,7 +178,6 @@ ShallowWrapper {
                 deleteExtensionViewHandler={[Function]}
                 extension={Object {}}
                 extensionViews={Array []}
-                mode="viewer"
                 openEditViewHandler={[Function]}
                 openExtensionViewHandler={[Function]}
 />,
@@ -203,7 +198,6 @@ ShallowWrapper {
                 "deleteExtensionViewHandler": [Function],
                 "extension": Object {},
                 "extensionViews": Array [],
-                "mode": "viewer",
                 "openEditViewHandler": [Function],
                 "openExtensionViewHandler": [Function],
               },
@@ -334,7 +328,6 @@ ShallowWrapper {
                                         },
                                       ]
                     }
-                    mode="viewer"
                     openEditViewHandler={[Function]}
                     openExtensionViewHandler={[Function]}
           />
@@ -423,7 +416,6 @@ ShallowWrapper {
                                           },
                                         ]
               }
-              mode="viewer"
               openEditViewHandler={[Function]}
               openExtensionViewHandler={[Function]}
 />,
@@ -494,7 +486,6 @@ ShallowWrapper {
                   "y": 0,
                 },
               ],
-              "mode": "viewer",
               "openEditViewHandler": [Function],
               "openExtensionViewHandler": [Function],
             },
@@ -600,7 +591,6 @@ ShallowWrapper {
                                                 },
                                               ]
                         }
-                        mode="viewer"
                         openEditViewHandler={[Function]}
                         openExtensionViewHandler={[Function]}
             />
@@ -689,7 +679,6 @@ ShallowWrapper {
                                                 },
                                               ]
                 }
-                mode="viewer"
                 openEditViewHandler={[Function]}
                 openExtensionViewHandler={[Function]}
 />,
@@ -760,7 +749,6 @@ ShallowWrapper {
                     "y": 0,
                   },
                 ],
-                "mode": "viewer",
                 "openEditViewHandler": [Function],
                 "openExtensionViewHandler": [Function],
               },
