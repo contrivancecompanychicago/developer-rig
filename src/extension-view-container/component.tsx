@@ -10,7 +10,6 @@ interface ExtensionViewContainerProps {
   openEditViewHandler?: (id: string) => void;
   deleteExtensionViewHandler: (id: string) => void;
   openExtensionViewHandler: Function;
-  extension: RigExtension;
 }
 
 type Props = ExtensionViewContainerProps;

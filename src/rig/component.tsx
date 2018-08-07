@@ -10,7 +10,7 @@ import { ProductManagementViewContainer } from '../product-management-container'
 import { createExtensionObject } from '../util/extension';
 import { createSignedToken } from '../util/token';
 import { fetchManifest, fetchExtensionManifest, fetchUserInfo } from '../util/api';
-import { ExtensionViews, BroadcasterConfig, LiveConfig, Configurations, ProductManagement } from '../constants/nav-items'
+import { ExtensionViews, ProductManagement } from '../constants/nav-items'
 import { ViewerTypes } from '../constants/viewer-types';
 import { OverlaySizes } from '../constants/overlay-sizes';
 import { IdentityOptions } from '../constants/identity-options';
@@ -32,8 +32,6 @@ export interface ReduxDispatchProps {
   userLogin: (userSession: UserSession) => void;
 }
 
-export interface RigProps { }
-
 interface State {
   apiHost: string;
   clientId: string;
@@ -46,15 +44,13 @@ interface State {
   showExtensionsView: boolean;
   showConfigurations: boolean;
   showEditView: boolean;
-  showProductManagementView: boolean;
   idToEdit: string;
   selectedView: string;
-  extension: RigExtension;
   userId: string;
   error: string;
 }
 
-type Props = RigProps & ReduxDispatchProps & ReduxStateProps;
+type Props = ReduxDispatchProps & ReduxStateProps;
 
 export class RigComponent extends React.Component<Props, State> {
   public state: State = {
@@ -69,10 +65,8 @@ export class RigComponent extends React.Component<Props, State> {
     showExtensionsView: false,
     showConfigurations: false,
     showEditView: false,
-    showProductManagementView: false,
     idToEdit: '0',
     selectedView: ExtensionViews,
-    extension: {} as RigExtension,
     userId: '',
     error: '',
   }
@@ -116,7 +110,6 @@ export class RigComponent extends React.Component<Props, State> {
   public viewerHandler = () => {
     this.setState({
       selectedView: ExtensionViews,
-      extension: {} as RigExtension,
     });
   }
 
@@ -223,14 +216,15 @@ export class RigComponent extends React.Component<Props, State> {
   }
 
   public render() {
-    let view = (
+    const view = this.state.selectedView === ProductManagement ? (
+      <ProductManagementViewContainer clientId={this.state.clientId} />
+    ) : (
       <div>
         <ExtensionViewContainer
           extensionViews={this.state.extensionViews}
           deleteExtensionViewHandler={this.deleteExtensionView}
           openExtensionViewHandler={this.openExtensionViewHandler}
-          openEditViewHandler={this.openEditViewHandler}
-          extension={this.state.extension} />
+          openEditViewHandler={this.openEditViewHandler} />
         {this.state.showExtensionsView &&
           <ExtensionViewDialog
             extensionViews={this.state.manifest.views}
@@ -253,12 +247,6 @@ export class RigComponent extends React.Component<Props, State> {
         <Console />
       </div>
     );
-
-    if (this.state.selectedView === ProductManagement) {
-      view = (
-        <ProductManagementViewContainer clientId={this.state.clientId} />
-      );
-    }
 
     return (
       <div className="rig-container">
@@ -295,8 +283,8 @@ export class RigComponent extends React.Component<Props, State> {
         this.state.channelId,
         this.state.secret
       )
-      .then(this.onConfigurationSuccess)
-      .catch(this.onConfigurationError);
+        .then(this.onConfigurationSuccess)
+        .catch(this.onConfigurationError);
     }
   }
 

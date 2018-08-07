@@ -1,7 +1,7 @@
 import { setupShallowTest } from '../tests/enzyme-util/shallow';
 import { createViewsForTest, ExtensionForTest } from '../tests/constants/extension';
 import { mockFetchForManifest, mockFetchForUserInfo } from '../tests/mocks';
-import { ExtensionViews, BroadcasterConfig, LiveConfig } from '../constants/nav-items';
+import { ExtensionViews } from '../constants/nav-items';
 import { RigComponent } from './component';
 import { ExtensionAnchors } from '../constants/extension-types';
 import { ViewerTypes } from '../constants/viewer-types';
@@ -135,7 +135,6 @@ describe('<RigComponent />', () => {
 
     instance.viewerHandler();
     expect(instance.state.selectedView).toBe(ExtensionViews);
-    expect(instance.state.extension).toEqual({});
   });
 
   it('gets the correct views when getExtensionViews invoked', () => {

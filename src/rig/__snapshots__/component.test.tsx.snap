@@ -31,7 +31,6 @@ ShallowWrapper {
         <div>
           <ExtensionViewContainer
                     deleteExtensionViewHandler={[Function]}
-                    extension={Object {}}
                     extensionViews={Array []}
                     openEditViewHandler={[Function]}
                     openExtensionViewHandler={[Function]}
@@ -67,7 +66,6 @@ ShallowWrapper {
           "children": Array [
             <ExtensionViewContainer
               deleteExtensionViewHandler={[Function]}
-              extension={Object {}}
               extensionViews={Array []}
               openEditViewHandler={[Function]}
               openExtensionViewHandler={[Function]}
@@ -87,7 +85,6 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "deleteExtensionViewHandler": [Function],
-              "extension": Object {},
               "extensionViews": Array [],
               "openEditViewHandler": [Function],
               "openExtensionViewHandler": [Function],
@@ -140,7 +137,6 @@ ShallowWrapper {
           <div>
             <ExtensionViewContainer
                         deleteExtensionViewHandler={[Function]}
-                        extension={Object {}}
                         extensionViews={Array []}
                         openEditViewHandler={[Function]}
                         openExtensionViewHandler={[Function]}
@@ -176,7 +172,6 @@ ShallowWrapper {
             "children": Array [
               <ExtensionViewContainer
                 deleteExtensionViewHandler={[Function]}
-                extension={Object {}}
                 extensionViews={Array []}
                 openEditViewHandler={[Function]}
                 openExtensionViewHandler={[Function]}
@@ -196,7 +191,6 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "deleteExtensionViewHandler": [Function],
-                "extension": Object {},
                 "extensionViews": Array [],
                 "openEditViewHandler": [Function],
                 "openExtensionViewHandler": [Function],
@@ -274,7 +268,6 @@ ShallowWrapper {
         <div>
           <ExtensionViewContainer
                     deleteExtensionViewHandler={[Function]}
-                    extension={Object {}}
                     extensionViews={
                               Array [
                                         Object {
@@ -362,7 +355,6 @@ ShallowWrapper {
           "children": Array [
             <ExtensionViewContainer
               deleteExtensionViewHandler={[Function]}
-              extension={Object {}}
               extensionViews={
                             Array [
                                           Object {
@@ -434,7 +426,6 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "deleteExtensionViewHandler": [Function],
-              "extension": Object {},
               "extensionViews": Array [
                 Object {
                   "extension": Object {
@@ -537,7 +528,6 @@ ShallowWrapper {
           <div>
             <ExtensionViewContainer
                         deleteExtensionViewHandler={[Function]}
-                        extension={Object {}}
                         extensionViews={
                                     Array [
                                                 Object {
@@ -625,7 +615,6 @@ ShallowWrapper {
             "children": Array [
               <ExtensionViewContainer
                 deleteExtensionViewHandler={[Function]}
-                extension={Object {}}
                 extensionViews={
                                 Array [
                                                 Object {
@@ -697,7 +686,6 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "deleteExtensionViewHandler": [Function],
-                "extension": Object {},
                 "extensionViews": Array [
                   Object {
                     "extension": Object {

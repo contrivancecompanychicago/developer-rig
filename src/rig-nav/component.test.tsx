@@ -1,6 +1,6 @@
 import { setupShallowTestWithStore, setupShallowTest } from '../tests/enzyme-util/shallow';
 import { RigNav, RigNavComponent } from '.';
-import { ExtensionViews, BroadcasterConfig, LiveConfig, Configurations, ProductManagement  } from '../constants/nav-items';
+import { ExtensionViews, ProductManagement  } from '../constants/nav-items';
 import { LoginButton } from '../login-button';
 import { UserDropdown } from '../user-dropdown';
 import { ManifestForTest } from '../tests/constants/extension';

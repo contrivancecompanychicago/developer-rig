@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as classNames from 'classnames';
-import { ExtensionViews, BroadcasterConfig, LiveConfig, Configurations, ProductManagement } from '../constants/nav-items';
+import { ExtensionViews, ProductManagement } from '../constants/nav-items';
 import { UserDropdown } from '../user-dropdown';
 import { LoginButton } from '../login-button';
 import { UserSession } from '../core/models/user-session';
@@ -39,16 +39,6 @@ export class RigNavComponent extends React.Component<Props> {
       'offset': true,
       'top-nav-item': true,
       'top-nav-item__selected': selectedView === ExtensionViews,
-    });
-
-    const broadcasterConfigClass = classNames({
-      'top-nav-item': true,
-      'top-nav-item__selected': selectedView === BroadcasterConfig,
-    });
-
-    const liveConfigClass = classNames({
-      'top-nav-item': true,
-      'top-nav-item__selected': selectedView === LiveConfig,
     });
 
     const productManagementClass = classNames({
