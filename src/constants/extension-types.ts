@@ -4,7 +4,7 @@ export const ExtensionAnchors: { [key: string]: string } = {
   [ExtensionAnchor.Overlay]: 'Overlay',
   [ExtensionAnchor.Panel]: 'Panel',
   [ExtensionAnchor.Component]: 'Component',
-  [ExtensionMode.Config]: 'Config',
+  [ExtensionMode.Config]: 'Configuration',
   [ExtensionMode.Dashboard]: 'Dashboard',
   [ExtensionPlatform.Mobile]: 'Mobile',
 };
