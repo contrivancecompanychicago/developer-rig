@@ -54,6 +54,16 @@ interface ExtensionProps {
   viewStyles: React.CSSProperties;
   viewWrapperStyles: React.CSSProperties;
 }
+
+const TypeViews: { [key: string]: string; } = {
+  [ExtensionAnchor.Component]: ExtensionViewType.Component,
+  [ExtensionAnchor.Overlay]: ExtensionViewType.VideoOverlay,
+  [ExtensionAnchor.Panel]: ExtensionViewType.Panel,
+  [ExtensionMode.Config]: ExtensionViewType.Config,
+  [ExtensionMode.Dashboard]: ExtensionViewType.LiveConfig,
+  [ExtensionPlatform.Mobile]: ExtensionViewType.Mobile,
+};
+
 export interface ReduxStateProps {
   mockApiEnabled: boolean;
 }
@@ -203,9 +213,10 @@ export class ExtensionViewComponent extends React.Component<Props, State> {
           className={'view__header'}>
           <div className={'view__header-container'}>
             <div className={'view__descriptor'}>
-              {this.props.role} <span> </span>
+              {this.props.role}
               {(this.props.role === ViewerTypes.LoggedIn) ?
-                this.renderLinkedOrUnlinked() : null}
+                ' ' + this.renderLinkedOrUnlinked() : null}
+              {` (${(this.props.extension.views as any)[TypeViews[this.props.type]].viewerUrl.replace(/.*\//, '')})`}
             </div>
 
             {this.props.mockApiEnabled && <RunListTrigger runList={runlist as RunList} iframe={this.state.iframe} />}
