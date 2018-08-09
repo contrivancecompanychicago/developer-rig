@@ -2,7 +2,7 @@ import { Product } from '../core/models/product';
 import {
   ViewsResponse,
   convertViews,
-  fetchManifest,
+  fetchUserByName,
   fetchExtensionManifest,
   fetchUserInfo,
   fetchProducts,
@@ -11,7 +11,7 @@ import {
 import {
   mockFetchError,
   mockFetchForExtensionManifest,
-  mockFetchForManifest,
+  mockFetchForUserByName,
   mockFetchForUserInfo,
   mockFetchProducts,
   mockFetchNewRelease
@@ -20,21 +20,20 @@ import {
 let globalAny = global as any;
 
 describe('api', () => {
-  describe('fetchManifest', () => {
+  describe('fetchUserByName', () => {
     it('should return data', async function () {
-      globalAny.fetch = jest.fn().mockImplementation(mockFetchForManifest);
+      globalAny.fetch = jest.fn().mockImplementation(mockFetchForUserByName);
       try {
-        const data = await fetchManifest('127.0.0.1:8080', 'clientId', 'username', 'version', 'channelId', 'secret');
+        const data = await fetchUserByName('127.0.0.1:8080', 'clientId', 'username');
         expect(data).toBeDefined();
       } catch (e) {}
     });
 
     it('on error should be fired ', async function () {
       expect.assertions(1);
-      const onError = jest.fn();
       globalAny.fetch = jest.fn().mockImplementation(mockFetchError);
-      fetchManifest('127.0.0.1:8080', 'clientId', '', '', '', '').catch((error) => {
-        expect(error).toEqual('Missing configurations for rig: EXT_VERSION,EXT_CHANNEL,EXT_SECRET');
+      fetchUserByName('127.0.0.1:8080', 'clientId', '').catch((error) => {
+        expect(error).toEqual('Fake error');
       });
     });
   })

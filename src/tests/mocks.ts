@@ -1,4 +1,16 @@
 
+export function mockFetchForUserByName() {
+  return Promise.resolve({
+    ok: true,
+    json: () => ({
+      data: [{
+        login: 'test',
+        profile_image_url: 'test.png',
+      }]
+    }),
+  });
+}
+
 export function mockFetchForManifest() {
   return Promise.resolve({
     ok: true,

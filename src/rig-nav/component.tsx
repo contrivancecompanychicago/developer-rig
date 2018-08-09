@@ -47,7 +47,7 @@ export class RigNavComponent extends React.Component<Props> {
       'top-nav-item__disabled': !(session && session.login) || !(manifest && manifest.bits_enabled),
     });
 
-    if (this.props.error !== '') {
+    if (this.props.error) {
       return (
         <div className='top-nav-error'>
           <a> {this.props.error} </a>

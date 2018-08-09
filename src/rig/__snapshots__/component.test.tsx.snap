@@ -22,7 +22,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Connect(RigNavComponent)
-          error=""
+          error={undefined}
           openConfigurationsHandler={[Function]}
           openProductManagementHandler={[Function]}
           selectedView="Extension Views"
@@ -48,7 +48,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "error": "",
+          "error": undefined,
           "openConfigurationsHandler": [Function],
           "openProductManagementHandler": [Function],
           "selectedView": "Extension Views",
@@ -128,7 +128,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Connect(RigNavComponent)
-            error=""
+            error={undefined}
             openConfigurationsHandler={[Function]}
             openProductManagementHandler={[Function]}
             selectedView="Extension Views"
@@ -154,7 +154,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "error": "",
+            "error": undefined,
             "openConfigurationsHandler": [Function],
             "openProductManagementHandler": [Function],
             "selectedView": "Extension Views",
@@ -259,7 +259,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Connect(RigNavComponent)
-          error=""
+          error={undefined}
           openConfigurationsHandler={[Function]}
           openProductManagementHandler={[Function]}
           selectedView="Extension Views"
@@ -343,7 +343,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "error": "",
+          "error": undefined,
           "openConfigurationsHandler": [Function],
           "openProductManagementHandler": [Function],
           "selectedView": "Extension Views",
@@ -537,7 +537,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Connect(RigNavComponent)
-            error=""
+            error={undefined}
             openConfigurationsHandler={[Function]}
             openProductManagementHandler={[Function]}
             selectedView="Extension Views"
@@ -621,7 +621,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "error": "",
+            "error": undefined,
             "openConfigurationsHandler": [Function],
             "openProductManagementHandler": [Function],
             "selectedView": "Extension Views",

@@ -1,8 +1,5 @@
 import { ExtensionViews } from '../core/models/extension';
 import { Product, DeserializedProduct } from '../core/models/product';
-import { createSignedToken } from '../util/token';
-import { missingConfigurations } from '../util/errors';
-import { RigRole } from '../constants/rig';
 
 export interface ViewsResponse {
   component?: {
@@ -107,16 +104,7 @@ export function fetchExtensionManifest(host: string, clientId: string, version: 
   });
 }
 
-export function fetchManifest(host: string, clientId: string, username: string, version: string, channelId: string, secret: string) {
-  if (!username || !clientId || !version || !channelId || !secret) {
-    return Promise.reject(missingConfigurations({
-      'EXT_CLIENT_ID': clientId,
-      'EXT_VERSION': version,
-      'EXT_CHANNEL': channelId,
-      'EXT_SECRET': secret,
-    }));
-  }
-
+export function fetchUserByName(host: string, clientId: string, username: string) {
   const api = 'https://' + host + '/helix/users?login=' + username;
   return fetch(api, {
     method: 'GET',
@@ -132,20 +120,17 @@ export function fetchManifest(host: string, clientId: string, username: string, 
       return Promise.reject('Unable to hit Twitch API to initialize the rig. Try again later.');
     }
 
-    return response.json()
+    return response.json();
   }).then((respJson) => {
     if (!respJson) {
-      return null;
+      return Promise.reject('Invalid server response for username: ' + username);
     }
 
     const data = respJson.data;
     if (!data && data.length === 0) {
       return Promise.reject('Unable to verify the id for username: ' + username);
     }
-
-    const userId = data[0]['id'];
-    const token = createSignedToken(RigRole, '', userId, channelId, secret);
-    return fetchExtensionManifest(host, clientId, version, token);
+    return Promise.resolve(data[0]);
   });
 }
 
@@ -190,18 +175,14 @@ export function fetchProducts(host: string, clientId: string, token: string) {
         return Promise.reject('Unable to get products for clientId: ' + clientId);
       }
 
-      const serializedProducts = products.map((p: DeserializedProduct) => {
-        let product = {
+      const serializedProducts = products.map((p: DeserializedProduct) => ({
           sku: p.sku || '',
           displayName: p.displayName || '',
           amount: p.cost ? p.cost.amount.toString() : '1',
           inDevelopment: p.inDevelopment ? 'true' : 'false',
           broadcast: p.broadcast ? 'true' : 'false',
           deprecated: p.expiration ? Date.parse(p.expiration) <= Date.now() : false,
-        };
-
-        return product;
-      });
+      }));
 
       return Promise.resolve(serializedProducts);
     });
@@ -251,7 +232,7 @@ export function fetchNewRelease() {
       if (tagName && zipUrl) {
         return Promise.resolve({
           tagName,
-          zipUrl
+          zipUrl,
         });
       }
 
