@@ -35,7 +35,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -118,7 +124,13 @@ ShallowWrapper {
                                   "liveConfig": Object {
                                     "viewerUrl": "test",
                                   },
+                                  "mobile": Object {
+                                    "viewerUrl": "test",
+                                  },
                                   "panel": Object {
+                                    "viewerUrl": "test",
+                                  },
+                                  "videoOverlay": Object {
                                     "viewerUrl": "test",
                                   },
                                 },
@@ -179,7 +191,13 @@ ShallowWrapper {
                                 "liveConfig": Object {
                                   "viewerUrl": "test",
                                 },
+                                "mobile": Object {
+                                  "viewerUrl": "test",
+                                },
                                 "panel": Object {
+                                  "viewerUrl": "test",
+                                },
+                                "videoOverlay": Object {
                                   "viewerUrl": "test",
                                 },
                               },
@@ -240,7 +258,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -313,7 +337,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -374,7 +404,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -435,7 +471,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },

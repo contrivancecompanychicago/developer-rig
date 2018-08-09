@@ -35,7 +35,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -90,10 +96,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
                     <div
                               className="view__edit_button"
@@ -144,7 +147,13 @@ ShallowWrapper {
                                 "liveConfig": Object {
                                   "viewerUrl": "test",
                                 },
+                                "mobile": Object {
+                                  "viewerUrl": "test",
+                                },
                                 "panel": Object {
+                                  "viewerUrl": "test",
+                                },
+                                "videoOverlay": Object {
                                   "viewerUrl": "test",
                                 },
                               },
@@ -192,10 +201,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
               <div
                             className="view__edit_button"
@@ -228,10 +234,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 <div
@@ -252,30 +255,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -361,7 +350,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -407,10 +402,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
                         <div
                                     className="view__edit_button"
@@ -461,7 +453,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -509,10 +507,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
                 <div
                                 className="view__edit_button"
@@ -545,10 +540,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   <div
@@ -569,30 +561,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -678,7 +656,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -753,7 +737,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -808,10 +798,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
           </div>
           <div
@@ -865,7 +852,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -906,10 +899,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
 </div>,
             <div
@@ -936,10 +926,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -955,30 +942,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -1054,7 +1027,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -1112,7 +1091,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -1153,10 +1138,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
             </div>
             <div
@@ -1210,7 +1192,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -1251,10 +1239,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
 </div>,
               <div
@@ -1281,10 +1266,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -1300,30 +1282,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -1399,7 +1367,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -1457,7 +1431,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -1527,7 +1507,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -1557,7 +1543,7 @@ ShallowWrapper {
           }
     }
     role="Broadcaster"
-    type="liveConfig"
+    type="dashboard"
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -1582,10 +1568,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
           </div>
           <div
@@ -1639,7 +1622,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -1653,7 +1642,7 @@ ShallowWrapper {
                     }
                     frameId="frameid-0"
                     mode="viewer"
-                    type="liveConfig"
+                    type="dashboard"
           />
 </div>,
       ],
@@ -1677,10 +1666,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
 </div>,
             <div
@@ -1707,10 +1693,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -1726,30 +1709,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -1825,7 +1794,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -1839,7 +1814,7 @@ ShallowWrapper {
             }
             frameId="frameid-0"
             mode="viewer"
-            type="liveConfig"
+            type="dashboard"
 />,
           "className": "view",
           "style": Object {
@@ -1883,7 +1858,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -1896,7 +1877,7 @@ ShallowWrapper {
             },
             "frameId": "frameid-0",
             "mode": "viewer",
-            "type": "liveConfig",
+            "type": "dashboard",
           },
           "ref": null,
           "rendered": null,
@@ -1924,10 +1905,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
             </div>
             <div
@@ -1981,7 +1959,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -1995,7 +1979,7 @@ ShallowWrapper {
                         }
                         frameId="frameid-0"
                         mode="viewer"
-                        type="liveConfig"
+                        type="dashboard"
             />
 </div>,
         ],
@@ -2019,10 +2003,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
 </div>,
               <div
@@ -2049,10 +2030,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -2068,30 +2046,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -2167,7 +2131,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -2181,7 +2151,7 @@ ShallowWrapper {
               }
               frameId="frameid-0"
               mode="viewer"
-              type="liveConfig"
+              type="dashboard"
 />,
             "className": "view",
             "style": Object {
@@ -2225,7 +2195,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -2238,7 +2214,7 @@ ShallowWrapper {
               },
               "frameId": "frameid-0",
               "mode": "viewer",
-              "type": "liveConfig",
+              "type": "dashboard",
             },
             "ref": null,
             "rendered": null,
@@ -2295,7 +2271,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -2351,10 +2333,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
                     <div
                               className="view__edit_button"
@@ -2405,7 +2384,13 @@ ShallowWrapper {
                                 "liveConfig": Object {
                                   "viewerUrl": "test",
                                 },
+                                "mobile": Object {
+                                  "viewerUrl": "test",
+                                },
                                 "panel": Object {
+                                  "viewerUrl": "test",
+                                },
+                                "videoOverlay": Object {
                                   "viewerUrl": "test",
                                 },
                               },
@@ -2454,10 +2439,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
               <div
                             className="view__edit_button"
@@ -2490,10 +2472,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 <div
@@ -2514,30 +2493,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -2623,7 +2588,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -2670,10 +2641,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
                         <div
                                     className="view__edit_button"
@@ -2724,7 +2692,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -2773,10 +2747,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
                 <div
                                 className="view__edit_button"
@@ -2809,10 +2780,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   <div
@@ -2833,30 +2801,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -2942,7 +2896,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -3018,7 +2978,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -3073,10 +3039,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
           </div>
           <div
@@ -3130,7 +3093,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -3168,10 +3137,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
 </div>,
             <div
@@ -3198,10 +3164,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -3217,30 +3180,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -3316,7 +3265,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -3374,7 +3329,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -3415,10 +3376,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
             </div>
             <div
@@ -3472,7 +3430,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -3510,10 +3474,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
 </div>,
               <div
@@ -3540,10 +3501,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -3559,30 +3517,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -3658,7 +3602,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -3716,7 +3666,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -3786,7 +3742,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -3841,11 +3803,8 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Logged-In Viewer
-                               
-                              <span>
-                                         
-                              </span>
-                              Linked
+                               Linked
+                               (test)
                     </div>
           </div>
           <div
@@ -3899,7 +3858,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -3937,11 +3902,8 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Logged-In Viewer
-                             
-                            <span>
-                                           
-                            </span>
-                            Linked
+                             Linked
+                             (test)
               </div>
 </div>,
             <div
@@ -3968,11 +3930,8 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Logged-In Viewer
-                   
-                  <span>
-                                     
-                  </span>
-                  Linked
+                   Linked
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -3988,30 +3947,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Logged-In Viewer",
-                    " ",
-                    <span>
-                       
-</span>,
-                    "Linked",
+                    " Linked",
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Logged-In Viewer",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
-                  "Linked",
+                  " Linked",
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -4087,7 +4032,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -4145,7 +4096,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -4186,11 +4143,8 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Logged-In Viewer
-                                     
-                                    <span>
-                                                 
-                                    </span>
-                                    Linked
+                                     Linked
+                                     (test)
                         </div>
             </div>
             <div
@@ -4244,7 +4198,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -4282,11 +4242,8 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Logged-In Viewer
-                                 
-                                <span>
-                                                 
-                                </span>
-                                Linked
+                                 Linked
+                                 (test)
                 </div>
 </div>,
               <div
@@ -4313,11 +4270,8 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Logged-In Viewer
-                     
-                    <span>
-                                         
-                    </span>
-                    Linked
+                     Linked
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -4333,30 +4287,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Logged-In Viewer",
-                      " ",
-                      <span>
-                         
-</span>,
-                      "Linked",
+                      " Linked",
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Logged-In Viewer",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
-                    "Linked",
+                    " Linked",
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -4432,7 +4372,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -4490,7 +4436,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -4560,7 +4512,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -4615,11 +4573,8 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Logged-In Viewer
-                               
-                              <span>
-                                         
-                              </span>
-                              Unlinked
+                               Unlinked
+                               (test)
                     </div>
           </div>
           <div
@@ -4673,7 +4628,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -4711,11 +4672,8 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Logged-In Viewer
-                             
-                            <span>
-                                           
-                            </span>
-                            Unlinked
+                             Unlinked
+                             (test)
               </div>
 </div>,
             <div
@@ -4742,11 +4700,8 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Logged-In Viewer
-                   
-                  <span>
-                                     
-                  </span>
-                  Unlinked
+                   Unlinked
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -4762,30 +4717,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Logged-In Viewer",
-                    " ",
-                    <span>
-                       
-</span>,
-                    "Unlinked",
+                    " Unlinked",
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Logged-In Viewer",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
-                  "Unlinked",
+                  " Unlinked",
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -4861,7 +4802,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -4919,7 +4866,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -4960,11 +4913,8 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Logged-In Viewer
-                                     
-                                    <span>
-                                                 
-                                    </span>
-                                    Unlinked
+                                     Unlinked
+                                     (test)
                         </div>
             </div>
             <div
@@ -5018,7 +4968,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -5056,11 +5012,8 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Logged-In Viewer
-                                 
-                                <span>
-                                                 
-                                </span>
-                                Unlinked
+                                 Unlinked
+                                 (test)
                 </div>
 </div>,
               <div
@@ -5087,11 +5040,8 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Logged-In Viewer
-                     
-                    <span>
-                                         
-                    </span>
-                    Unlinked
+                     Unlinked
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -5107,30 +5057,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Logged-In Viewer",
-                      " ",
-                      <span>
-                         
-</span>,
-                      "Unlinked",
+                      " Unlinked",
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Logged-In Viewer",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
-                    "Unlinked",
+                    " Unlinked",
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -5206,7 +5142,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -5264,7 +5206,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -5334,7 +5282,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -5389,10 +5343,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Logged-Out Viewer
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
           </div>
           <div
@@ -5446,7 +5397,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -5484,10 +5441,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Logged-Out Viewer
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
 </div>,
             <div
@@ -5514,10 +5468,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Logged-Out Viewer
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -5533,30 +5484,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Logged-Out Viewer",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Logged-Out Viewer",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -5632,7 +5569,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -5690,7 +5633,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -5731,10 +5680,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Logged-Out Viewer
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
             </div>
             <div
@@ -5788,7 +5734,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -5826,10 +5778,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Logged-Out Viewer
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
 </div>,
               <div
@@ -5856,10 +5805,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Logged-Out Viewer
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -5875,30 +5821,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Logged-Out Viewer",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Logged-Out Viewer",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -5974,7 +5906,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -6032,7 +5970,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -6102,7 +6046,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -6157,10 +6107,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
           </div>
           <div
@@ -6214,7 +6161,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -6252,10 +6205,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
 </div>,
             <div
@@ -6282,10 +6232,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -6301,30 +6248,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -6400,7 +6333,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -6458,7 +6397,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -6499,10 +6444,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
             </div>
             <div
@@ -6556,7 +6498,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -6594,10 +6542,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
 </div>,
               <div
@@ -6624,10 +6569,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -6643,30 +6585,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -6742,7 +6670,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -6800,7 +6734,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -6870,7 +6810,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -6925,11 +6871,8 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Logged-In Viewer
-                               
-                              <span>
-                                         
-                              </span>
-                              Linked
+                               Linked
+                               (test)
                     </div>
           </div>
           <div
@@ -6983,7 +6926,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -7021,11 +6970,8 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Logged-In Viewer
-                             
-                            <span>
-                                           
-                            </span>
-                            Linked
+                             Linked
+                             (test)
               </div>
 </div>,
             <div
@@ -7052,11 +6998,8 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Logged-In Viewer
-                   
-                  <span>
-                                     
-                  </span>
-                  Linked
+                   Linked
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -7072,30 +7015,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Logged-In Viewer",
-                    " ",
-                    <span>
-                       
-</span>,
-                    "Linked",
+                    " Linked",
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Logged-In Viewer",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
-                  "Linked",
+                  " Linked",
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -7171,7 +7100,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -7229,7 +7164,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -7270,11 +7211,8 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Logged-In Viewer
-                                     
-                                    <span>
-                                                 
-                                    </span>
-                                    Linked
+                                     Linked
+                                     (test)
                         </div>
             </div>
             <div
@@ -7328,7 +7266,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -7366,11 +7310,8 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Logged-In Viewer
-                                 
-                                <span>
-                                                 
-                                </span>
-                                Linked
+                                 Linked
+                                 (test)
                 </div>
 </div>,
               <div
@@ -7397,11 +7338,8 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Logged-In Viewer
-                     
-                    <span>
-                                         
-                    </span>
-                    Linked
+                     Linked
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -7417,30 +7355,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Logged-In Viewer",
-                      " ",
-                      <span>
-                         
-</span>,
-                      "Linked",
+                      " Linked",
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Logged-In Viewer",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
-                    "Linked",
+                    " Linked",
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -7516,7 +7440,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -7574,7 +7504,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -7644,7 +7580,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -7699,11 +7641,8 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Logged-In Viewer
-                               
-                              <span>
-                                         
-                              </span>
-                              Unlinked
+                               Unlinked
+                               (test)
                     </div>
           </div>
           <div
@@ -7757,7 +7696,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -7795,11 +7740,8 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Logged-In Viewer
-                             
-                            <span>
-                                           
-                            </span>
-                            Unlinked
+                             Unlinked
+                             (test)
               </div>
 </div>,
             <div
@@ -7826,11 +7768,8 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Logged-In Viewer
-                   
-                  <span>
-                                     
-                  </span>
-                  Unlinked
+                   Unlinked
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -7846,30 +7785,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Logged-In Viewer",
-                    " ",
-                    <span>
-                       
-</span>,
-                    "Unlinked",
+                    " Unlinked",
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Logged-In Viewer",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
-                  "Unlinked",
+                  " Unlinked",
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -7945,7 +7870,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -8003,7 +7934,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -8044,11 +7981,8 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Logged-In Viewer
-                                     
-                                    <span>
-                                                 
-                                    </span>
-                                    Unlinked
+                                     Unlinked
+                                     (test)
                         </div>
             </div>
             <div
@@ -8102,7 +8036,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -8140,11 +8080,8 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Logged-In Viewer
-                                 
-                                <span>
-                                                 
-                                </span>
-                                Unlinked
+                                 Unlinked
+                                 (test)
                 </div>
 </div>,
               <div
@@ -8171,11 +8108,8 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Logged-In Viewer
-                     
-                    <span>
-                                         
-                    </span>
-                    Unlinked
+                     Unlinked
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -8191,30 +8125,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Logged-In Viewer",
-                      " ",
-                      <span>
-                         
-</span>,
-                      "Unlinked",
+                      " Unlinked",
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Logged-In Viewer",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
-                    "Unlinked",
+                    " Unlinked",
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -8290,7 +8210,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -8348,7 +8274,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -8418,7 +8350,13 @@ ShallowWrapper {
               "liveConfig": Object {
                 "viewerUrl": "test",
               },
+              "mobile": Object {
+                "viewerUrl": "test",
+              },
               "panel": Object {
+                "viewerUrl": "test",
+              },
+              "videoOverlay": Object {
                 "viewerUrl": "test",
               },
             },
@@ -8473,10 +8411,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Logged-Out Viewer
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
           </div>
           <div
@@ -8530,7 +8465,13 @@ ShallowWrapper {
                                           "liveConfig": Object {
                                             "viewerUrl": "test",
                                           },
+                                          "mobile": Object {
+                                            "viewerUrl": "test",
+                                          },
                                           "panel": Object {
+                                            "viewerUrl": "test",
+                                          },
+                                          "videoOverlay": Object {
                                             "viewerUrl": "test",
                                           },
                                         },
@@ -8568,10 +8509,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Logged-Out Viewer
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
 </div>,
             <div
@@ -8598,10 +8536,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Logged-Out Viewer
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -8617,30 +8552,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Logged-Out Viewer",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Logged-Out Viewer",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -8716,7 +8637,13 @@ ShallowWrapper {
                                       "liveConfig": Object {
                                         "viewerUrl": "test",
                                       },
+                                      "mobile": Object {
+                                        "viewerUrl": "test",
+                                      },
                                       "panel": Object {
+                                        "viewerUrl": "test",
+                                      },
+                                      "videoOverlay": Object {
                                         "viewerUrl": "test",
                                       },
                                     },
@@ -8774,7 +8701,13 @@ ShallowWrapper {
                 "liveConfig": Object {
                   "viewerUrl": "test",
                 },
+                "mobile": Object {
+                  "viewerUrl": "test",
+                },
                 "panel": Object {
+                  "viewerUrl": "test",
+                },
+                "videoOverlay": Object {
                   "viewerUrl": "test",
                 },
               },
@@ -8815,10 +8748,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Logged-Out Viewer
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
             </div>
             <div
@@ -8872,7 +8802,13 @@ ShallowWrapper {
                                                   "liveConfig": Object {
                                                     "viewerUrl": "test",
                                                   },
+                                                  "mobile": Object {
+                                                    "viewerUrl": "test",
+                                                  },
                                                   "panel": Object {
+                                                    "viewerUrl": "test",
+                                                  },
+                                                  "videoOverlay": Object {
                                                     "viewerUrl": "test",
                                                   },
                                                 },
@@ -8910,10 +8846,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Logged-Out Viewer
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
 </div>,
               <div
@@ -8940,10 +8873,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Logged-Out Viewer
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -8959,30 +8889,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Logged-Out Viewer",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Logged-Out Viewer",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -9058,7 +8974,13 @@ ShallowWrapper {
                                             "liveConfig": Object {
                                               "viewerUrl": "test",
                                             },
+                                            "mobile": Object {
+                                              "viewerUrl": "test",
+                                            },
                                             "panel": Object {
+                                              "viewerUrl": "test",
+                                            },
+                                            "videoOverlay": Object {
                                               "viewerUrl": "test",
                                             },
                                           },
@@ -9116,7 +9038,13 @@ ShallowWrapper {
                   "liveConfig": Object {
                     "viewerUrl": "test",
                   },
+                  "mobile": Object {
+                    "viewerUrl": "test",
+                  },
                   "panel": Object {
+                    "viewerUrl": "test",
+                  },
+                  "videoOverlay": Object {
                     "viewerUrl": "test",
                   },
                 },
@@ -9236,10 +9164,7 @@ ShallowWrapper {
                               className="view__descriptor"
                     >
                               Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
+                               (test)
                     </div>
           </div>
           <div
@@ -9326,10 +9251,7 @@ ShallowWrapper {
                             className="view__descriptor"
               >
                             Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
+                             (test)
               </div>
 </div>,
             <div
@@ -9356,10 +9278,7 @@ ShallowWrapper {
                   className="view__descriptor"
 >
                   Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
+                   (test)
 </div>,
                 undefined,
                 false,
@@ -9375,30 +9294,16 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
                     null,
+                    " (test)",
                   ],
                   "className": "view__descriptor",
                 },
                 "ref": null,
                 "rendered": Array [
                   "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
                   null,
+                  " (test)",
                 ],
                 "type": "div",
               },
@@ -9563,10 +9468,7 @@ ShallowWrapper {
                                     className="view__descriptor"
                         >
                                     Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
+                                     (test)
                         </div>
             </div>
             <div
@@ -9653,10 +9555,7 @@ ShallowWrapper {
                                 className="view__descriptor"
                 >
                                 Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
+                                 (test)
                 </div>
 </div>,
               <div
@@ -9683,10 +9582,7 @@ ShallowWrapper {
                     className="view__descriptor"
 >
                     Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
+                     (test)
 </div>,
                   undefined,
                   false,
@@ -9702,30 +9598,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
                       null,
+                      " (test)",
                     ],
                     "className": "view__descriptor",
                   },
                   "ref": null,
                   "rendered": Array [
                     "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
                     null,
+                    " (test)",
                   ],
                   "type": "div",
                 },
@@ -9863,774 +9745,6 @@ ShallowWrapper {
               "frameId": "frameid-0",
               "mode": "viewer",
               "type": "panel",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-      },
-    },
-  },
-}
-`;
-
-exports[`<ExtensionViewComponent /> uses correct panel view styles if no type provided 1`] = `
-ShallowWrapper {
-  "length": 1,
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <ExtensionViewComponent
-    deleteViewHandler={[Function]}
-    extension={
-        Object {
-            "authorName": "test",
-            "bitsEnabled": false,
-            "channelId": "channelId",
-            "description": "description",
-            "iconUrl": "icon_url",
-            "id": "id",
-            "name": "name",
-            "requestIdentityLink": false,
-            "sku": "sku",
-            "state": "state",
-            "summary": "summary",
-            "token": "token",
-            "vendorCode": "vendorCode",
-            "version": "0.1",
-            "views": Object {
-              "component": Object {
-                "aspectHeight": 3000,
-                "aspectWidth": 2500,
-                "viewerUrl": "test",
-                "zoom": false,
-              },
-              "config": Object {
-                "viewerUrl": "test",
-              },
-              "liveConfig": Object {
-                "viewerUrl": "test",
-              },
-              "panel": Object {
-                "viewerUrl": "test",
-              },
-            },
-            "whitelistedConfigUrls": Array [
-              "foo",
-            ],
-            "whitelistedPanelUrls": Array [
-              "bar",
-            ],
-          }
-    }
-    frameSize={
-        Object {
-            "height": 0,
-            "width": 0,
-          }
-    }
-    id="0"
-    iframe=""
-    linked={false}
-    mode="viewer"
-    openEditViewHandler={[Function]}
-    position={
-        Object {
-            "x": 0,
-            "y": 0,
-          }
-    }
-    role="Broadcaster"
-    type=""
-/>,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <div
-          className="view__header"
->
-          <div
-                    className="view__header-container"
-          >
-                    <div
-                              className="view__descriptor"
-                    >
-                              Broadcaster
-                               
-                              <span>
-                                         
-                              </span>
-                    </div>
-          </div>
-          <div
-                    className="view__close_button"
-                    onClick={[Function]}
-          >
-                    <img
-                              alt="Close"
-                              src="close_icon.png"
-                    />
-          </div>
-</div>,
-        <div
-          className="view"
-          style={
-                    Object {
-                              "height": "300px",
-                              "width": "320px",
-                            }
-          }
->
-          <ExtensionFrame
-                    bindIframeToParent={[Function]}
-                    className="view"
-                    extension={
-                              Object {
-                                        "authorName": "test",
-                                        "bitsEnabled": false,
-                                        "channelId": "channelId",
-                                        "description": "description",
-                                        "iconUrl": "icon_url",
-                                        "id": "id",
-                                        "name": "name",
-                                        "requestIdentityLink": false,
-                                        "sku": "sku",
-                                        "state": "state",
-                                        "summary": "summary",
-                                        "token": "token",
-                                        "vendorCode": "vendorCode",
-                                        "version": "0.1",
-                                        "views": Object {
-                                          "component": Object {
-                                            "aspectHeight": 3000,
-                                            "aspectWidth": 2500,
-                                            "viewerUrl": "test",
-                                            "zoom": false,
-                                          },
-                                          "config": Object {
-                                            "viewerUrl": "test",
-                                          },
-                                          "liveConfig": Object {
-                                            "viewerUrl": "test",
-                                          },
-                                          "panel": Object {
-                                            "viewerUrl": "test",
-                                          },
-                                        },
-                                        "whitelistedConfigUrls": Array [
-                                          "foo",
-                                        ],
-                                        "whitelistedPanelUrls": Array [
-                                          "bar",
-                                        ],
-                                      }
-                    }
-                    frameId="frameid-0"
-                    mode="viewer"
-                    type=""
-          />
-</div>,
-      ],
-      "className": "view__wrapper",
-      "onMouseEnter": [Function],
-      "onMouseLeave": [Function],
-      "style": Object {},
-    },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <div
-              className="view__header-container"
->
-              <div
-                            className="view__descriptor"
-              >
-                            Broadcaster
-                             
-                            <span>
-                                           
-                            </span>
-              </div>
-</div>,
-            <div
-              className="view__close_button"
-              onClick={[Function]}
->
-              <img
-                            alt="Close"
-                            src="close_icon.png"
-              />
-</div>,
-          ],
-          "className": "view__header",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                <div
-                  className="view__descriptor"
->
-                  Broadcaster
-                   
-                  <span>
-                                     
-                  </span>
-</div>,
-                undefined,
-                false,
-              ],
-              "className": "view__header-container",
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    "Broadcaster",
-                    " ",
-                    <span>
-                       
-</span>,
-                    null,
-                  ],
-                  "className": "view__descriptor",
-                },
-                "ref": null,
-                "rendered": Array [
-                  "Broadcaster",
-                  " ",
-                  Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": " ",
-                    },
-                    "ref": null,
-                    "rendered": " ",
-                    "type": "span",
-                  },
-                  null,
-                ],
-                "type": "div",
-              },
-              undefined,
-              false,
-            ],
-            "type": "div",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="Close"
-                src="close_icon.png"
-/>,
-              "className": "view__close_button",
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "Close",
-                "src": "close_icon.png",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "div",
-          },
-        ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <ExtensionFrame
-            bindIframeToParent={[Function]}
-            className="view"
-            extension={
-                        Object {
-                                    "authorName": "test",
-                                    "bitsEnabled": false,
-                                    "channelId": "channelId",
-                                    "description": "description",
-                                    "iconUrl": "icon_url",
-                                    "id": "id",
-                                    "name": "name",
-                                    "requestIdentityLink": false,
-                                    "sku": "sku",
-                                    "state": "state",
-                                    "summary": "summary",
-                                    "token": "token",
-                                    "vendorCode": "vendorCode",
-                                    "version": "0.1",
-                                    "views": Object {
-                                      "component": Object {
-                                        "aspectHeight": 3000,
-                                        "aspectWidth": 2500,
-                                        "viewerUrl": "test",
-                                        "zoom": false,
-                                      },
-                                      "config": Object {
-                                        "viewerUrl": "test",
-                                      },
-                                      "liveConfig": Object {
-                                        "viewerUrl": "test",
-                                      },
-                                      "panel": Object {
-                                        "viewerUrl": "test",
-                                      },
-                                    },
-                                    "whitelistedConfigUrls": Array [
-                                      "foo",
-                                    ],
-                                    "whitelistedPanelUrls": Array [
-                                      "bar",
-                                    ],
-                                  }
-            }
-            frameId="frameid-0"
-            mode="viewer"
-            type=""
-/>,
-          "className": "view",
-          "style": Object {
-            "height": "300px",
-            "width": "320px",
-          },
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "bindIframeToParent": [Function],
-            "className": "view",
-            "extension": Object {
-              "authorName": "test",
-              "bitsEnabled": false,
-              "channelId": "channelId",
-              "description": "description",
-              "iconUrl": "icon_url",
-              "id": "id",
-              "name": "name",
-              "requestIdentityLink": false,
-              "sku": "sku",
-              "state": "state",
-              "summary": "summary",
-              "token": "token",
-              "vendorCode": "vendorCode",
-              "version": "0.1",
-              "views": Object {
-                "component": Object {
-                  "aspectHeight": 3000,
-                  "aspectWidth": 2500,
-                  "viewerUrl": "test",
-                  "zoom": false,
-                },
-                "config": Object {
-                  "viewerUrl": "test",
-                },
-                "liveConfig": Object {
-                  "viewerUrl": "test",
-                },
-                "panel": Object {
-                  "viewerUrl": "test",
-                },
-              },
-              "whitelistedConfigUrls": Array [
-                "foo",
-              ],
-              "whitelistedPanelUrls": Array [
-                "bar",
-              ],
-            },
-            "frameId": "frameid-0",
-            "mode": "viewer",
-            "type": "",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        "type": "div",
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="view__header"
->
-            <div
-                        className="view__header-container"
-            >
-                        <div
-                                    className="view__descriptor"
-                        >
-                                    Broadcaster
-                                     
-                                    <span>
-                                                 
-                                    </span>
-                        </div>
-            </div>
-            <div
-                        className="view__close_button"
-                        onClick={[Function]}
-            >
-                        <img
-                                    alt="Close"
-                                    src="close_icon.png"
-                        />
-            </div>
-</div>,
-          <div
-            className="view"
-            style={
-                        Object {
-                                    "height": "300px",
-                                    "width": "320px",
-                                  }
-            }
->
-            <ExtensionFrame
-                        bindIframeToParent={[Function]}
-                        className="view"
-                        extension={
-                                    Object {
-                                                "authorName": "test",
-                                                "bitsEnabled": false,
-                                                "channelId": "channelId",
-                                                "description": "description",
-                                                "iconUrl": "icon_url",
-                                                "id": "id",
-                                                "name": "name",
-                                                "requestIdentityLink": false,
-                                                "sku": "sku",
-                                                "state": "state",
-                                                "summary": "summary",
-                                                "token": "token",
-                                                "vendorCode": "vendorCode",
-                                                "version": "0.1",
-                                                "views": Object {
-                                                  "component": Object {
-                                                    "aspectHeight": 3000,
-                                                    "aspectWidth": 2500,
-                                                    "viewerUrl": "test",
-                                                    "zoom": false,
-                                                  },
-                                                  "config": Object {
-                                                    "viewerUrl": "test",
-                                                  },
-                                                  "liveConfig": Object {
-                                                    "viewerUrl": "test",
-                                                  },
-                                                  "panel": Object {
-                                                    "viewerUrl": "test",
-                                                  },
-                                                },
-                                                "whitelistedConfigUrls": Array [
-                                                  "foo",
-                                                ],
-                                                "whitelistedPanelUrls": Array [
-                                                  "bar",
-                                                ],
-                                              }
-                        }
-                        frameId="frameid-0"
-                        mode="viewer"
-                        type=""
-            />
-</div>,
-        ],
-        "className": "view__wrapper",
-        "onMouseEnter": [Function],
-        "onMouseLeave": [Function],
-        "style": Object {},
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <div
-                className="view__header-container"
->
-                <div
-                                className="view__descriptor"
-                >
-                                Broadcaster
-                                 
-                                <span>
-                                                 
-                                </span>
-                </div>
-</div>,
-              <div
-                className="view__close_button"
-                onClick={[Function]}
->
-                <img
-                                alt="Close"
-                                src="close_icon.png"
-                />
-</div>,
-            ],
-            "className": "view__header",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  <div
-                    className="view__descriptor"
->
-                    Broadcaster
-                     
-                    <span>
-                                         
-                    </span>
-</div>,
-                  undefined,
-                  false,
-                ],
-                "className": "view__header-container",
-              },
-              "ref": null,
-              "rendered": Array [
-                Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "children": Array [
-                      "Broadcaster",
-                      " ",
-                      <span>
-                         
-</span>,
-                      null,
-                    ],
-                    "className": "view__descriptor",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    "Broadcaster",
-                    " ",
-                    Object {
-                      "instance": null,
-                      "key": undefined,
-                      "nodeType": "host",
-                      "props": Object {
-                        "children": " ",
-                      },
-                      "ref": null,
-                      "rendered": " ",
-                      "type": "span",
-                    },
-                    null,
-                  ],
-                  "type": "div",
-                },
-                undefined,
-                false,
-              ],
-              "type": "div",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": <img
-                  alt="Close"
-                  src="close_icon.png"
-/>,
-                "className": "view__close_button",
-                "onClick": [Function],
-              },
-              "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "alt": "Close",
-                  "src": "close_icon.png",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "img",
-              },
-              "type": "div",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <ExtensionFrame
-              bindIframeToParent={[Function]}
-              className="view"
-              extension={
-                            Object {
-                                          "authorName": "test",
-                                          "bitsEnabled": false,
-                                          "channelId": "channelId",
-                                          "description": "description",
-                                          "iconUrl": "icon_url",
-                                          "id": "id",
-                                          "name": "name",
-                                          "requestIdentityLink": false,
-                                          "sku": "sku",
-                                          "state": "state",
-                                          "summary": "summary",
-                                          "token": "token",
-                                          "vendorCode": "vendorCode",
-                                          "version": "0.1",
-                                          "views": Object {
-                                            "component": Object {
-                                              "aspectHeight": 3000,
-                                              "aspectWidth": 2500,
-                                              "viewerUrl": "test",
-                                              "zoom": false,
-                                            },
-                                            "config": Object {
-                                              "viewerUrl": "test",
-                                            },
-                                            "liveConfig": Object {
-                                              "viewerUrl": "test",
-                                            },
-                                            "panel": Object {
-                                              "viewerUrl": "test",
-                                            },
-                                          },
-                                          "whitelistedConfigUrls": Array [
-                                            "foo",
-                                          ],
-                                          "whitelistedPanelUrls": Array [
-                                            "bar",
-                                          ],
-                                        }
-              }
-              frameId="frameid-0"
-              mode="viewer"
-              type=""
-/>,
-            "className": "view",
-            "style": Object {
-              "height": "300px",
-              "width": "320px",
-            },
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "bindIframeToParent": [Function],
-              "className": "view",
-              "extension": Object {
-                "authorName": "test",
-                "bitsEnabled": false,
-                "channelId": "channelId",
-                "description": "description",
-                "iconUrl": "icon_url",
-                "id": "id",
-                "name": "name",
-                "requestIdentityLink": false,
-                "sku": "sku",
-                "state": "state",
-                "summary": "summary",
-                "token": "token",
-                "vendorCode": "vendorCode",
-                "version": "0.1",
-                "views": Object {
-                  "component": Object {
-                    "aspectHeight": 3000,
-                    "aspectWidth": 2500,
-                    "viewerUrl": "test",
-                    "zoom": false,
-                  },
-                  "config": Object {
-                    "viewerUrl": "test",
-                  },
-                  "liveConfig": Object {
-                    "viewerUrl": "test",
-                  },
-                  "panel": Object {
-                    "viewerUrl": "test",
-                  },
-                },
-                "whitelistedConfigUrls": Array [
-                  "foo",
-                ],
-                "whitelistedPanelUrls": Array [
-                  "bar",
-                ],
-              },
-              "frameId": "frameid-0",
-              "mode": "viewer",
-              "type": "",
             },
             "ref": null,
             "rendered": null,

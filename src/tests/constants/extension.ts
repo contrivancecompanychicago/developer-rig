@@ -71,6 +71,12 @@ export const ExtensionForTest = {
     liveConfig: {
       viewerUrl: 'test',
     },
+    videoOverlay: {
+      viewerUrl: 'test',
+    },
+    mobile: {
+      viewerUrl: 'test',
+    },
     component: {
       aspectHeight: 3000,
       aspectWidth: 2500,

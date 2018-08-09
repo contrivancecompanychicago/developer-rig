@@ -60,6 +60,8 @@ describe('<ExtensionFrame />', () => {
             'component': { 'aspectHeight': 3000, 'aspectWidth': 2500, 'viewerUrl': 'test', 'zoom': false },
             'config': { 'viewerUrl': 'test' },
             'liveConfig': { 'viewerUrl': 'test' },
+            'videoOverlay': { 'viewerUrl': 'test' },
+            'mobile': { 'viewerUrl': 'test' },
             'panel': { 'viewerUrl': 'test' }
           },
           'whitelistedConfigUrls': ['foo'],
@@ -111,6 +113,8 @@ describe('<ExtensionFrame />', () => {
             'component': { 'aspectHeight': 3000, 'aspectWidth': 2500, 'viewerUrl': 'test', 'zoom': false },
             'config': { 'viewerUrl': 'test' },
             'liveConfig': { 'viewerUrl': 'test' },
+            'videoOverlay': { 'viewerUrl': 'test' },
+            'mobile': { 'viewerUrl': 'test' },
             'panel': { 'viewerUrl': 'test' }
           },
           'whitelistedConfigUrls': ['foo'],

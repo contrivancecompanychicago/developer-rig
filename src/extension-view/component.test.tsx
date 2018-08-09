@@ -22,13 +22,6 @@ describe('<ExtensionViewComponent />', () => {
     iframe: '',
   }));
 
-  it('uses correct panel view styles if no type provided', () => {
-    const { wrapper } = setupShallow({
-      type: '',
-    });
-    expect(wrapper).toMatchSnapshot();
-  });
-
   it('when moused over displays the delete button', () => {
     const { wrapper } = setupShallow();
     wrapper.simulate('mouseEnter');
@@ -67,7 +60,7 @@ describe('<ExtensionViewComponent />', () => {
   describe('live config mode views', () => {
     it('renders correctly when in config mode', () => {
       const { wrapper } = setupShallow({
-        type: ExtensionViewType.LiveConfig
+        type: ExtensionMode.Dashboard
       });
       expect(wrapper).toMatchSnapshot();
     });
