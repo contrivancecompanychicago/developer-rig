@@ -13,23 +13,10 @@ export function createExtensionObject(
   opaqueId: string): RigExtension
 {
   return {
-    authorName: manifest.authorName,
+    ...manifest,
     clientId: manifest.id,
-    description: manifest.description,
-    iconUrl: manifest.iconUrl,
     id: manifest.id + ':' + index,
-    name: manifest.name,
-    requestIdentityLink: manifest.requestIdentityLink,
-    sku: manifest.sku,
-    state: manifest.state,
-    summary: manifest.summary,
     token: createToken(role, isLinked, ownerID, channelId, secret, opaqueId),
-    vendorCode: manifest.vendorCode,
-    version: manifest.version,
-    views: manifest.views,
-    whitelistedConfigUrls: manifest.whitelistedConfigUrls,
-    whitelistedPanelUrls: manifest.whitelistedPanelUrls,
     channelId: channelId,
-    bitsEnabled: manifest.bitsEnabled,
   };
 }

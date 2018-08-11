@@ -43,16 +43,23 @@ describe('extension', () => {
 
   it('creates an extension with the correct data', () => {
     const expected = {
+      anchor: 'panel',
       authorName: manifest.authorName,
+      canInstall: true,
       clientId: manifest.id,
       description: manifest.description,
+      eulaTosUrl: 'test.biz',
       iconUrl: manifest.iconUrl,
+      iconUrls: [ 'test' ],
       id: manifest.id + ':' + index,
+      installationCount: -42,
       name: manifest.name,
+      privacyPolicyUrl: 'test.biz',
       requestIdentityLink: manifest.requestIdentityLink,
       sku: manifest.sku,
       state: manifest.state,
       summary: manifest.summary,
+      supportEmail: 'test@test.biz',
       token: createToken(role, isLinked, ownerID, channelId, secret, opaqueId),
       vendorCode: manifest.vendorCode,
       version: manifest.version,

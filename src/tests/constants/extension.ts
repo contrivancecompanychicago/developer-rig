@@ -53,16 +53,26 @@ export const ManifestForTest: ExtensionManifest = {
 };
 
 export const ExtensionForTest = {
+  anchor: 'panel',
   authorName: 'test',
+  canInstall: true,
   id: 'id',
+  installationCount: 0,
   description: 'description',
+  eulaTosUrl: 'test.biz',
   iconUrl: 'iconUrl',
+  iconUrls: {},
   name: 'name',
+  panelHeight: 300,
+  privacyPolicyUrl: 'test.com',
   requestIdentityLink: false,
+  requiredBroadcasterAbilities: ['test'],
+  screenshotUrls: ['test.png'],
   sku: 'sku',
   state: ExtensionState.Testing,
   summary: 'summary',
   token: 'token',
+  supportEmail: 'test',
   vendorCode: 'vendorCode',
   version: '0.1',
   views: {

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { PositionProperty } from 'csstype';
-import { ExtensionViews } from './manifest';
+import { ExtensionManifest, ExtensionViews } from './manifest';
 
 export type RigExtensionView = {
   x: number;
@@ -23,23 +23,9 @@ export type FrameSize = {
   width: number;
 };
 
-export type RigExtension = {
-  authorName: string;
-  id: string;
+export type RigExtension = ExtensionManifest & {
   clientId?: string;
-  description: string;
-  iconUrl: string;
-  name: string;
-  requestIdentityLink: boolean
-  sku: string;
-  state: string;
-  summary: string;
   token: string;
-  vendorCode: string;
-  version: string;
-  views: ExtensionViews;
-  whitelistedConfigUrls: string[];
-  whitelistedPanelUrls: string[];
   channelId: string;
   bitsEnabled: boolean;
 };

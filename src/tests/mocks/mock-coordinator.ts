@@ -1,30 +1,32 @@
+import { ExtensionAnchor, ExtensionMode, ExtensionPlatform, ExtensionViewType } from '../../constants/extension-coordinator';
+
 export function newMockCoordinator() {
   let coordinator = {} as any;
 
   coordinator.ExtensionMode = {
-    Viewer: 'viewer',
-    Dashboard: 'dashboard',
-    Config: 'config',
+    Config: ExtensionMode.Config,
+    Dashboard: ExtensionMode.Dashboard,
+    Viewer: ExtensionMode.Viewer,
   };
 
   coordinator.ExtensionPlatform = {
-    Web: 'web',
-    Mobile: 'mobile'
+    Mobile: ExtensionPlatform.Mobile,
+    Web: ExtensionPlatform.Web,
   };
 
   coordinator.ExtensionAnchor = {
-    Panel: 'panel',
-    Overlay: 'videoOverlay',
-    Component: 'component',
+    Component: ExtensionAnchor.Component,
+    Overlay: ExtensionAnchor.Overlay,
+    Panel: ExtensionAnchor.Panel,
   };
 
   coordinator.ExtensionViewType = {
-    Component: 'component',
-    Config: 'config',
-    LiveConfig: 'liveConfig',
-    Mobile: 'mobile',
-    Panel: 'panel',
-    VideoOverlay: 'videoOverlay',
+    Component: ExtensionViewType.Component,
+    Config: ExtensionViewType.Config,
+    LiveConfig: ExtensionViewType.LiveConfig,
+    Mobile: ExtensionViewType.Mobile,
+    Panel: ExtensionViewType.Panel,
+    VideoOverlay: ExtensionViewType.VideoOverlay,
   };
 
   coordinator.getComponentPositionFromView = () => ({
@@ -36,7 +38,7 @@ export function newMockCoordinator() {
     width: 10,
     height: 10,
     zoomScale: 1024,
-  })
+  });
 
   return coordinator;
 }
