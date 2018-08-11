@@ -1,7 +1,7 @@
 export enum ExtensionAnchor {
   Hidden = 'hidden',
   Panel = 'panel',
-  Overlay = 'videoOverlay',
+  VideoOverlay = 'videoOverlay',
   Component = 'component',
 }
 

@@ -173,7 +173,7 @@ export class ExtensionViewDialog extends React.Component<ExtensionViewDialogProp
             <div className="type-and-size-container__size-title">
               <div className="size-title__size-subcontainer">
 
-                {(this.state.extensionViewType === ExtensionAnchor.Overlay) &&
+                {(this.state.extensionViewType === ExtensionAnchor.VideoOverlay) &&
                   <div className="size-title__size-subcontainer">
                     <div className="size-subcontainer__presets">
                       <div className="type-and-size-container__type-title">

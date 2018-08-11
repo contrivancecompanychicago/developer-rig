@@ -10,7 +10,7 @@ window['extension-coordinator'] = (function() {
   const ExtensionAnchor = {
     Hidden: 'hidden',
     Panel: 'panel',
-    Overlay: 'video_overlay',
+    VideoOverlay: 'video_overlay',
     Component: 'component',
   };
   const ExtensionMode = {
@@ -128,7 +128,7 @@ window['extension-coordinator'] = (function() {
               return views.component && views.component.viewerUrl;
             case ExtensionAnchor.Hidden:
               return views.hidden && views.hidden.viewerUrl;
-            case ExtensionAnchor.Overlay:
+            case ExtensionAnchor.VideoOverlay:
               return views.videoOverlay && views.videoOverlay.viewerUrl;
             case ExtensionAnchor.Panel:
               return views.panel && views.panel.viewerUrl;
@@ -294,7 +294,7 @@ window['extension-coordinator'] = (function() {
             const iframeHeight = getExtensionHeight();
             iframeAttrs.style = `height: ${iframeHeight}px;`;
             break;
-          case ExtensionAnchor.Overlay:
+          case ExtensionAnchor.VideoOverlay:
           case ExtensionAnchor.Component:
           case ExtensionAnchor.Hidden:
             return getDefaultAnchorAttributes();

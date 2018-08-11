@@ -3,7 +3,7 @@ import { ExtensionAnchor, ExtensionPlatform, ExtensionState, ExtensionViewType }
 export function getSupportedAnchors(views: ExtensionViews): ExtensionAnchor[] {
   const anchors = [];
   if (views.videoOverlay && views.videoOverlay.viewerUrl) {
-    anchors.push(ExtensionAnchor.Overlay);
+    anchors.push(ExtensionAnchor.VideoOverlay);
   }
 
   if (views.panel && views.panel.viewerUrl) {

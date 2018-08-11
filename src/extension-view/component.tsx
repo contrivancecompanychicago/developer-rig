@@ -57,7 +57,7 @@ interface ExtensionProps {
 
 const TypeViews: { [key: string]: string; } = {
   [ExtensionAnchor.Component]: ExtensionViewType.Component,
-  [ExtensionAnchor.Overlay]: ExtensionViewType.VideoOverlay,
+  [ExtensionAnchor.VideoOverlay]: ExtensionViewType.VideoOverlay,
   [ExtensionAnchor.Panel]: ExtensionViewType.Panel,
   [ExtensionMode.Config]: ExtensionViewType.Config,
   [ExtensionMode.Dashboard]: ExtensionViewType.LiveConfig,
@@ -118,7 +118,7 @@ export class ExtensionViewComponent extends React.Component<Props, State> {
           orientation={this.props.orientation}
         />);
         break;
-      case ExtensionAnchor.Overlay:
+      case ExtensionAnchor.VideoOverlay:
         view = (<div
           className="view nono_zone"
           style={extensionProps.viewStyles}>
@@ -176,7 +176,7 @@ export class ExtensionViewComponent extends React.Component<Props, State> {
           width: PanelViewDimensions.width + 'px',
         }
         break;
-      case ExtensionAnchor.Overlay:
+      case ExtensionAnchor.VideoOverlay:
         extensionProps.viewStyles = {
           width: this.props.frameSize.width + 'px',
           height: this.props.frameSize.height + 'px'

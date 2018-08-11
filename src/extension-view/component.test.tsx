@@ -152,7 +152,7 @@ describe('<ExtensionViewComponent />', () => {
   describe('overlay mode views', () => {
     it('renders correctly in overlay mode as a Broadcaster', () => {
       const { wrapper } = setupShallow({
-        type: ExtensionAnchor.Overlay,
+        type: ExtensionAnchor.VideoOverlay,
         frameSize: {
           height: "1px",
           width: "1px"

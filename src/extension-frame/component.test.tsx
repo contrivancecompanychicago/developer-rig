@@ -172,7 +172,7 @@ describe('<ExtensionFrame />', () => {
   describe('when in video overlay mode', () => {
     it('renders correctly', () => {
       const { wrapper } = setupShallow({
-        type: ExtensionAnchor.Overlay,
+        type: ExtensionAnchor.VideoOverlay,
         mode: ExtensionMode.Viewer,
       });
       expect(wrapper).toMatchSnapshot();
@@ -182,7 +182,7 @@ describe('<ExtensionFrame />', () => {
   describe('when in video overlay mode', () => {
     it('renders correctly', () => {
       const { wrapper } = setupShallow({
-        type: ExtensionAnchor.Overlay,
+        type: ExtensionAnchor.VideoOverlay,
         mode: ExtensionMode.Viewer,
       });
       expect(wrapper).toMatchSnapshot();
