@@ -26,7 +26,7 @@ export function getSupportedPlatforms(views: ManifestViews): ExtensionPlatform[]
   return platforms;
 }
 
-export interface View {
+export interface ManifestView {
   aspectHeight?: number;
   aspectWidth?: number;
   size?: number;
@@ -37,43 +37,43 @@ export interface View {
 }
 
 export interface ManifestViews {
-  config?: View;
-  liveConfig?: View;
-  panel?: View;
-  videoOverlay?: View;
-  mobile?: View;
-  component?: View;
+  config?: ManifestView;
+  liveConfig?: ManifestView;
+  panel?: ManifestView;
+  videoOverlay?: ManifestView;
+  mobile?: ManifestView;
+  component?: ManifestView;
 }
 
 export interface ExtensionManifest {
   anchor: string;
-  asset_urls?: string[];
-  author_name: string;
-  bits_enabled: boolean;
-  can_install: boolean;
-  config_url?: string;
+  assetUrls?: string[];
+  authorName: string;
+  bitsEnabled: boolean;
+  canInstall: boolean;
+  configUrl?: string;
   description: string;
-  eula_tos_url: string;
-  icon_url: string;
-  icon_urls: Object;
+  eulaTosUrl: string;
+  iconUrl: string;
+  iconUrls: Object;
   id: string;
-  installation_count: number;
-  live_config_url?: string;
+  installationCount: number;
+  liveConfigUrl?: string;
   name: string;
-  panel_height?: number;
-  privacy_policy_url: string;
-  request_identity_link: boolean;
-  required_broadcaster_abilities?: string[];
-  screenshot_urls?: string[];
+  panelHeight?: number;
+  privacyPolicyUrl: string;
+  requestIdentityLink: boolean;
+  requiredBroadcasterAbilities?: string[];
+  screenshotUrls?: string[];
   sku: string;
   state: string;
   summary: string;
-  support_email: string;
-  vendor_code: string;
+  supportEmail: string;
+  vendorCode: string;
   version: string;
-  viewer_url?: string;
-  viewer_urls?: Object;
+  viewerUrl?: string;
+  viewerUrls?: Object;
   views: ManifestViews;
-  whitelisted_config_urls: string[];
-  whitelisted_panel_urls: string[];
+  whitelistedConfigUrls: string[];
+  whitelistedPanelUrls: string[];
 }

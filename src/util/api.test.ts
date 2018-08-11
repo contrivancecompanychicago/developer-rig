@@ -1,7 +1,6 @@
 import { Product } from '../core/models/product';
+import { toCamelCase } from '../util/case';
 import {
-  ViewsResponse,
-  convertViews,
   fetchUserByName,
   fetchExtensionManifest,
   fetchUserInfo,
@@ -69,25 +68,25 @@ describe('api', () => {
     });
   });
 
-  describe('convertViews', () => {
-    const data: ViewsResponse = {
+  describe('toCamelCase', () => {
+    const data: any = {
       config: {
-        viewer_url: 'test',
+        viewerUrl: 'test',
       },
       live_config: {
-        viewer_url: 'test',
+        viewerUrl: 'test',
       },
       video_overlay: {
-        viewer_url: 'test',
+        viewerUrl: 'test',
       },
       panel: {
-        viewer_url: 'test',
+        viewerUrl: 'test',
         height: 300,
       },
     };
 
-    it('should convert camel case views correctly', () => {
-      const results = convertViews(data);
+    it('should convert camel case correctly', () => {
+      const results = toCamelCase(data);
       expect(results.config.viewerUrl).toBe('test');
       expect(results.liveConfig.viewerUrl).toBe('test');
       expect(results.videoOverlay.viewerUrl).toBe('test');

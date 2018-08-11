@@ -28,7 +28,7 @@ type Props = PublicProps & ReduxStateProps;
 export class RigNavComponent extends React.Component<Props> {
   private openProductManagementHandler = (): void => {
     const { session, manifest, openProductManagementHandler } = this.props;
-    if ((session && session.login) && (manifest && manifest.bits_enabled)) {
+    if ((session && session.login) && (manifest && manifest.bitsEnabled)) {
       openProductManagementHandler();
     }
   }
@@ -44,7 +44,7 @@ export class RigNavComponent extends React.Component<Props> {
     const productManagementClass = classNames({
       'top-nav-item': true,
       'top-nav-item__selected': selectedView === ProductManagement,
-      'top-nav-item__disabled': !(session && session.login) || !(manifest && manifest.bits_enabled),
+      'top-nav-item__disabled': !(session && session.login) || !(manifest && manifest.bitsEnabled),
     });
 
     if (this.props.error) {

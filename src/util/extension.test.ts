@@ -5,31 +5,31 @@ import { createToken } from './token';
 describe('extension', () => {
   const manifest = {
     anchor: 'panel',
-    author_name: 'test',
+    authorName: 'test',
     id: 'id',
     description: 'desc',
-    icon_url: 'test.png',
-    icon_urls: ['test'],
+    iconUrl: 'test.png',
+    iconUrls: ['test'],
     name: 'test',
-    request_identity_link: false,
+    requestIdentityLink: false,
     sku: 'sku',
     state: 'state',
     summary: 'summary',
-    vendor_code: 'vendor_code',
+    vendorCode: 'vendorCode',
     views: {
       panel: {
         viewerUrl: 'test',
       },
     },
     version: '0.1',
-    whitelisted_config_urls: ['test'],
-    whitelisted_panel_urls: ['test'],
-    bits_enabled: false,
-    can_install: true,
-    eula_tos_url: 'test.biz',
-    support_email: 'test@test.biz',
-    privacy_policy_url: 'test.biz',
-    installation_count: -42,
+    whitelistedConfigUrls: ['test'],
+    whitelistedPanelUrls: ['test'],
+    bitsEnabled: false,
+    canInstall: true,
+    eulaTosUrl: 'test.biz',
+    supportEmail: 'test@test.biz',
+    privacyPolicyUrl: 'test.biz',
+    installationCount: -42,
   };
   const index = '0';
   const role = ViewerTypes.LoggedOut;
@@ -41,24 +41,24 @@ describe('extension', () => {
 
   it('creates an extension with the correct data', () => {
     const expected = {
-      authorName: manifest.author_name,
+      authorName: manifest.authorName,
       clientId: manifest.id,
       description: manifest.description,
-      iconUrl: manifest.icon_url,
+      iconUrl: manifest.iconUrl,
       id: manifest.id + ':' + index,
       name: manifest.name,
-      requestIdentityLink: manifest.request_identity_link,
+      requestIdentityLink: manifest.requestIdentityLink,
       sku: manifest.sku,
       state: manifest.state,
       summary: manifest.summary,
       token: createToken(role, isLinked, ownerID, channelId, secret, opaqueId),
-      vendorCode: manifest.vendor_code,
+      vendorCode: manifest.vendorCode,
       version: manifest.version,
       views: manifest.views,
-      whitelistedConfigUrls: manifest.whitelisted_config_urls,
-      whitelistedPanelUrls: manifest.whitelisted_panel_urls,
+      whitelistedConfigUrls: manifest.whitelistedConfigUrls,
+      whitelistedPanelUrls: manifest.whitelistedPanelUrls,
       channelId: channelId,
-      bitsEnabled: manifest.bits_enabled,
+      bitsEnabled: manifest.bitsEnabled,
     };
     const result = createExtensionObject(manifest, index, role, isLinked, ownerID, channelId, secret, opaqueId);
     expect(result).toEqual(expected);

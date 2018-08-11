@@ -14,7 +14,7 @@ export function newMockCoordinator() {
 
   coordinator.ExtensionAnchor = {
     Panel: 'panel',
-    Overlay: 'video_overlay',
+    Overlay: 'videoOverlay',
     Component: 'component',
   };
 

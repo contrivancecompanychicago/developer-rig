@@ -5,7 +5,7 @@ export enum ExtensionActivationStatus {
 export enum ExtensionAnchor {
   Hidden = 'hidden',
   Panel = 'panel',
-  Overlay = 'video_overlay',
+  Overlay = 'videoOverlay',
   Component = 'component',
 }
 export enum ExtensionMode {
@@ -70,6 +70,7 @@ export type ExtensionView = {
 export type ComponentView = ExtensionView & {
     aspectHeight: number;
     aspectWidth: number;
+    size: number;
     zoom: boolean;
     zoomPixels: number;
 };

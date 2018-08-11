@@ -1,9 +1,10 @@
 import * as React from 'react';
+import { ExtensionManifest } from '../core/models/manifest';
 import * as closeButton from '../img/close_icon.png';
 import './component.sass';
 
 interface RigConfigurationsDialogProps {
-  config: object;
+  config: ExtensionManifest;
   closeConfigurationsHandler: () => void;
   refreshConfigurationsHandler: () => void;
 }

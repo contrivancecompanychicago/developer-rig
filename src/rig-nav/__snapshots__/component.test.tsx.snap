@@ -11,32 +11,32 @@ ShallowWrapper {
     manifest={
         Object {
             "anchor": "panel",
-            "author_name": "test",
-            "bits_enabled": true,
-            "can_install": true,
-            "config_url": "test",
+            "authorName": "test",
+            "bitsEnabled": true,
+            "canInstall": true,
+            "configUrl": "test",
             "description": "test",
-            "eula_tos_url": "test.com",
-            "icon_url": "test.com",
-            "icon_urls": Object {},
+            "eulaTosUrl": "test.com",
+            "iconUrl": "test.com",
+            "iconUrls": Object {},
             "id": "test",
-            "installation_count": 0,
-            "live_config_url": "test.com",
+            "installationCount": 0,
+            "liveConfigUrl": "test.com",
             "name": "test",
-            "panel_height": 300,
-            "privacy_policy_url": "test.com",
-            "request_identity_link": false,
-            "required_broadcaster_abilities": Array [
+            "panelHeight": 300,
+            "privacyPolicyUrl": "test.com",
+            "requestIdentityLink": false,
+            "requiredBroadcasterAbilities": Array [
               "test",
             ],
-            "screenshot_urls": Array [
+            "screenshotUrls": Array [
               "test.png",
             ],
             "sku": "test",
             "state": "test",
             "summary": "test",
-            "support_email": "test",
-            "vendor_code": "test",
+            "supportEmail": "test",
+            "vendorCode": "test",
             "version": "0.0.1",
             "views": Object {
               "component": Object {
@@ -55,8 +55,8 @@ ShallowWrapper {
                 "viewerUrl": "test",
               },
             },
-            "whitelisted_config_urls": Array [],
-            "whitelisted_panel_urls": Array [],
+            "whitelistedConfigUrls": Array [],
+            "whitelistedPanelUrls": Array [],
           }
     }
     openConfigurationsHandler={[Function]}

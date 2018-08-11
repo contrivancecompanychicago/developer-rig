@@ -137,9 +137,9 @@ export class RigComponent extends React.Component<Props, State> {
       .catch(this.onConfigurationError);
   }
 
-  public onConfigurationSuccess = (data: any) => {
-    this.props.saveManifest(data.manifest);
-    this.setState(data);
+  public onConfigurationSuccess = (manifest: any) => {
+    this.props.saveManifest(manifest);
+    this.setState({ manifest });
   }
 
   public onConfigurationError = (errMsg: string) => {

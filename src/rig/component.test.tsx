@@ -166,7 +166,7 @@ describe('<RigComponent />', () => {
     const instance = wrapper.instance() as RigComponent;
 
     instance.onConfigurationSuccess(testData);
-    expect(wrapper.instance().state.test).toBe(testData.test);
+    expect(wrapper.instance().state.manifest).toBe(testData);
   });
 
   it('sets error state correctly when _onConfigurationError invoked', () => {

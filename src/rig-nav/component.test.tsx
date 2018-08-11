@@ -80,7 +80,7 @@ describe('<RigNavComponent />', () => {
     const { wrapper } = setupRenderer({
       manifest: {
         ...ManifestForTest,
-        bits_enabled: false,
+        bitsEnabled: false,
       },
     });
     expect(wrapper.find('.top-nav-item__disabled')).toHaveLength(1);

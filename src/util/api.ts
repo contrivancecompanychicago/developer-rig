@@ -1,71 +1,5 @@
-import { ExtensionViews } from '../core/models/extension';
 import { Product, DeserializedProduct } from '../core/models/product';
-
-export interface ViewsResponse {
-  component?: {
-    viewer_url: string;
-    aspect_height: number;
-    aspect_width: number;
-    size: number;
-    zoom: boolean;
-    zoom_pixels: number;
-  };
-  config?: {
-    viewer_url: string;
-  };
-  live_config?: {
-    viewer_url: string;
-  };
-  mobile?: {
-    viewer_url: string;
-  };
-  panel?: {
-    height: number;
-    viewer_url: string;
-  };
-  video_overlay?: {
-    viewer_url: string;
-  };
-}
-
-export function convertViews(data: ViewsResponse): ExtensionViews {
-  const views: ExtensionViews = {};
-
-  if (data.config) {
-    views.config = { viewerUrl: data.config.viewer_url };
-  }
-
-  if (data.live_config) {
-    views.liveConfig = { viewerUrl: data.live_config.viewer_url };
-  }
-
-  if (data.panel) {
-    views.panel = {
-      height: data.panel.height,
-      viewerUrl: data.panel.viewer_url,
-    };
-  }
-
-  if (data.video_overlay) {
-    views.videoOverlay = { viewerUrl: data.video_overlay.viewer_url };
-  }
-
-  if (data.mobile) {
-    views.mobile = { viewerUrl: data.mobile.viewer_url };
-  }
-
-  if (data.component) {
-    views.component = {
-      aspectHeight: data.component.aspect_height,
-      aspectWidth: data.component.aspect_width,
-      viewerUrl: data.component.viewer_url,
-      zoom: data.component.zoom,
-      zoomPixels: data.component.zoom_pixels,
-    };
-  }
-
-  return views;
-}
+import { toCamelCase } from '../util/case';
 
 export function fetchExtensionManifest(host: string, clientId: string, version: string, jwt: string) {
   const api = 'https://' + host + '/kraken/extensions/search';
@@ -95,11 +29,9 @@ export function fetchExtensionManifest(host: string, clientId: string, version: 
   .then((response) => response.json())
   .then((data) => {
     if (data.extensions && data.extensions.length > 0) {
-      const manifest = data.extensions[0];
-      manifest.views = convertViews(manifest.views);
-      return Promise.resolve({ manifest });
+      const manifest = toCamelCase(data.extensions[0]);
+      return Promise.resolve(manifest);
     }
-
     return Promise.reject('Unable to retrieve extension manifest, please verify EXT_OWNER_NAME and EXT_SECRET');
   });
 }
@@ -176,12 +108,12 @@ export function fetchProducts(host: string, clientId: string, token: string) {
       }
 
       const serializedProducts = products.map((p: DeserializedProduct) => ({
-          sku: p.sku || '',
-          displayName: p.displayName || '',
-          amount: p.cost ? p.cost.amount.toString() : '1',
-          inDevelopment: p.inDevelopment ? 'true' : 'false',
-          broadcast: p.broadcast ? 'true' : 'false',
-          deprecated: p.expiration ? Date.parse(p.expiration) <= Date.now() : false,
+        sku: p.sku || '',
+        displayName: p.displayName || '',
+        amount: p.cost ? p.cost.amount.toString() : '1',
+        inDevelopment: p.inDevelopment ? 'true' : 'false',
+        broadcast: p.broadcast ? 'true' : 'false',
+        deprecated: p.expiration ? Date.parse(p.expiration) <= Date.now() : false,
       }));
 
       return Promise.resolve(serializedProducts);

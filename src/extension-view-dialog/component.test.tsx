@@ -93,7 +93,7 @@ describe('<ExtensionViewDialog />', () => {
     });
 
     it('has the correct selected UI elements', () => {
-      expect(wrapper.find('DivOption[value="video_overlay"][checked=true]')).toHaveLength(1);
+      expect(wrapper.find('DivOption[value="videoOverlay"][checked=true]')).toHaveLength(1);
       expect(wrapper.find('DivOption[checked=false]')).toHaveLength(3);
 
       expect(wrapper.find('RadioOption[value="640x480"][checked=true]')).toHaveLength(1);
