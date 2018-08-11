@@ -8,17 +8,31 @@ ShallowWrapper {
     deleteExtensionViewHandler={[Function]}
     extension={
         Object {
+            "anchor": "panel",
             "authorName": "test",
             "bitsEnabled": false,
+            "canInstall": true,
             "channelId": "channelId",
             "description": "description",
+            "eulaTosUrl": "test.biz",
             "iconUrl": "iconUrl",
+            "iconUrls": Object {},
             "id": "id",
+            "installationCount": 0,
             "name": "name",
+            "panelHeight": 300,
+            "privacyPolicyUrl": "test.com",
             "requestIdentityLink": false,
+            "requiredBroadcasterAbilities": Array [
+              "test",
+            ],
+            "screenshotUrls": Array [
+              "test.png",
+            ],
             "sku": "sku",
             "state": "Testing",
             "summary": "summary",
+            "supportEmail": "test",
             "token": "token",
             "vendorCode": "vendorCode",
             "version": "0.1",

@@ -8,19 +8,22 @@ import { RigConfigurationsDialog } from '../rig-configurations-dialog';
 import { EditViewDialog, EditViewProps } from '../edit-view-dialog';
 import { ProductManagementViewContainer } from '../product-management-container';
 import { missingConfigurations } from '../util/errors';
-import { createExtensionObject } from '../util/extension';
 import { createSignedToken } from '../util/token';
 import { fetchExtensionManifest, fetchUserByName, fetchUserInfo } from '../util/api';
 import { Labels } from '../constants/nav-items'
 import { OverlaySizes } from '../constants/overlay-sizes';
 import { IdentityOptions } from '../constants/identity-options';
 import { MobileSizes } from '../constants/mobile';
+import { ViewerTypes } from '../constants/viewer-types';
 import { RigRole } from '../constants/rig';
 import { RigExtensionView, RigExtension } from '../core/models/rig';
 import { ExtensionManifest } from '../core/models/manifest';
 import { UserSession } from '../core/models/user-session';
 import { SignInDialog } from '../sign-in-dialog';
 import { ExtensionMode, ExtensionViewType } from '../constants/extension-coordinator';
+
+const idSource: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+const idLength: number = 15;
 
 export interface ReduxStateProps {
   session: UserSession;
@@ -162,6 +165,42 @@ export class RigComponent extends React.Component<Props, State> {
     return OverlaySizes[extensionViewDialogState.frameSize];
   }
 
+  public createExtensionObject(
+    manifest: ExtensionManifest,
+    index: string,
+    role: string,
+    isLinked: boolean,
+    ownerID: string,
+    channelId: string,
+    secret: string,
+    opaqueId: string): RigExtension {
+    const opaque = opaqueId ?
+      opaqueId :
+      Array(idLength).fill(0).map(_ => idSource.charAt(Math.floor(Math.random() * idSource.length))).join('');
+    let token;
+    switch (role) {
+      case ViewerTypes.LoggedOut:
+        token = createSignedToken('viewer', 'ARIG' + opaque, '', channelId, secret)
+      case ViewerTypes.LoggedIn:
+        if (isLinked) {
+          token = createSignedToken('viewer', 'URIG' + opaque, 'RIG' + ownerID, channelId, secret)
+        } else {
+          token = createSignedToken('viewer', 'URIG' + opaque, '', channelId, secret)
+        }
+      case ViewerTypes.Broadcaster:
+        token = createSignedToken('broadcaster', 'URIG' + opaque, 'RIG' + ownerID, channelId, secret)
+      default:
+        token = createSignedToken(RigRole, 'ARIG' + opaque, '', channelId, secret);
+    }
+    return {
+      ...manifest,
+      clientId: manifest.id,
+      id: manifest.id + ':' + index,
+      token,
+      channelId,
+    };
+  }
+
   public createExtensionView = (extensionViewDialogState: any) => {
     const extensionViews = this.getExtensionViews();
     const mode = extensionViewDialogState.extensionViewType === ExtensionMode.Config ? ExtensionMode.Config :
@@ -173,7 +212,7 @@ export class RigComponent extends React.Component<Props, State> {
     extensionViews.push({
       id: nextExtensionViewId.toString(),
       type: extensionViewDialogState.extensionViewType,
-      extension: createExtensionObject(
+      extension: this.createExtensionObject(
         this.state.manifest,
         nextExtensionViewId.toString(),
         extensionViewDialogState.viewerType,

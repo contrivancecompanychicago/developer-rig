@@ -3,8 +3,6 @@ import { RigRole } from '../constants/rig';
 import { sign } from 'jsonwebtoken';
 
 const OneYearMS: number = 365 * 24 * 60 * 60 * 1000;
-const idSource: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-const idLength: number= 15;
 
 interface PubsubPerms {
   listen?: string[];
@@ -18,32 +16,6 @@ export interface TokenPayload {
   channel_id: string;
   role: string;
   pubsub_perms: PubsubPerms;
-}
-
-export function generateOpaqueID(): string{
-  let id = '';
-  for (let i = 0; i < idLength; i++) {
-    id += idSource.charAt(Math.floor(Math.random() * idSource.length));
-  }
-  return id;
-}
-
-export function createToken(newRole: string, isLinked: boolean, ownerID: string, channelId: string, secret: string, opaqueId: string): string {
-  const opaque = opaqueId ? opaqueId : generateOpaqueID();
-  switch (newRole) {
-    case ViewerTypes.LoggedOut:
-      return createSignedToken('viewer', 'ARIG' + opaque, '', channelId, secret)
-    case ViewerTypes.LoggedIn:
-      if (isLinked) {
-        return createSignedToken('viewer', 'URIG' + opaque, 'RIG'+ownerID, channelId, secret)
-      } else {
-        return createSignedToken('viewer', 'URIG' + opaque, '', channelId, secret)
-      }
-    case ViewerTypes.Broadcaster:
-      return createSignedToken('broadcaster', 'URIG' + opaque, 'RIG' + ownerID, channelId, secret)
-    default:
-      return createSignedToken(RigRole, 'ARIG' + opaque, '', channelId, secret);
-  }
 }
 
 export function createSignedToken(role: string, opaqueUserId: string, userId: string, channelId: string, secret: string): string{
