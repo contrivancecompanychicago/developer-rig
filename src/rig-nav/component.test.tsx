@@ -1,6 +1,6 @@
 import { setupShallowTestWithStore, setupShallowTest } from '../tests/enzyme-util/shallow';
 import { RigNav, RigNavComponent } from '.';
-import { ExtensionViews, ProductManagement  } from '../constants/nav-items';
+import { Labels  } from '../constants/nav-items';
 import { LoginButton } from '../login-button';
 import { UserDropdown } from '../user-dropdown';
 import { ManifestForTest } from '../tests/constants/extension';
@@ -12,7 +12,7 @@ describe('<RigNavComponent />', () => {
     configHandler: jest.fn(),
     liveConfigHandler: jest.fn(),
     openProductManagementHandler: jest.fn(),
-    selectedView: ExtensionViews,
+    selectedView: Labels.ExtensionViews,
     error: '',
     manifest: ManifestForTest,
     session: { login: 'test', profileImageUrl: 'test.png', authToken: 'test'},
@@ -44,12 +44,12 @@ describe('<RigNavComponent />', () => {
 
   it('correct css classes are set when things are selected', () => {
     const { wrapper } = setupRenderer({
-      selectedView: ExtensionViews,
+      selectedView: Labels.ExtensionViews,
     });
     expect(wrapper.find('.top-nav-item__selected')).toHaveLength(1);
 
     wrapper.setProps({
-      selectedView: ProductManagement,
+      selectedView: Labels.ProductManagement,
     });
     wrapper.update();
     expect(wrapper.find('.top-nav-item__selected')).toHaveLength(1);

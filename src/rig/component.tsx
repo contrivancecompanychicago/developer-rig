@@ -11,7 +11,7 @@ import { missingConfigurations } from '../util/errors';
 import { createExtensionObject } from '../util/extension';
 import { createSignedToken } from '../util/token';
 import { fetchExtensionManifest, fetchUserByName, fetchUserInfo } from '../util/api';
-import { ExtensionViews, ProductManagement } from '../constants/nav-items'
+import { Labels } from '../constants/nav-items'
 import { OverlaySizes } from '../constants/overlay-sizes';
 import { IdentityOptions } from '../constants/identity-options';
 import { MobileSizes } from '../constants/mobile';
@@ -65,7 +65,7 @@ export class RigComponent extends React.Component<Props, State> {
     showConfigurations: false,
     showEditView: false,
     idToEdit: '0',
-    selectedView: ExtensionViews,
+    selectedView: Labels.ExtensionViews,
   }
 
   constructor(props: Props) {
@@ -106,13 +106,13 @@ export class RigComponent extends React.Component<Props, State> {
 
   public viewerHandler = () => {
     this.setState({
-      selectedView: ExtensionViews,
+      selectedView: Labels.ExtensionViews,
     });
   }
 
   private openProductManagementHandler = () => {
     this.setState({
-      selectedView: ProductManagement,
+      selectedView: Labels.ProductManagement,
     });
   }
 
@@ -213,7 +213,7 @@ export class RigComponent extends React.Component<Props, State> {
   }
 
   public render() {
-    const view = this.state.selectedView === ProductManagement ? (
+    const view = this.state.selectedView === Labels.ProductManagement ? (
       <ProductManagementViewContainer clientId={this.state.clientId} />
     ) : (
       <div>

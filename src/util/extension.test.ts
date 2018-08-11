@@ -1,3 +1,4 @@
+import { ExtensionState } from '../constants/extension-coordinator';
 import { createExtensionObject } from './extension';
 import { ViewerTypes } from '../constants/viewer-types';
 import { createToken } from './token';
@@ -13,12 +14,13 @@ describe('extension', () => {
     name: 'test',
     requestIdentityLink: false,
     sku: 'sku',
-    state: 'state',
+    state: ExtensionState.Testing,
     summary: 'summary',
     vendorCode: 'vendorCode',
     views: {
       panel: {
         viewerUrl: 'test',
+        height: 300,
       },
     },
     version: '0.1',

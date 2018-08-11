@@ -17,7 +17,7 @@ ShallowWrapper {
             "name": "name",
             "requestIdentityLink": false,
             "sku": "sku",
-            "state": "state",
+            "state": "Testing",
             "summary": "summary",
             "token": "token",
             "vendorCode": "vendorCode",
@@ -26,8 +26,10 @@ ShallowWrapper {
               "component": Object {
                 "aspectHeight": 3000,
                 "aspectWidth": 2500,
+                "size": 0,
                 "viewerUrl": "test",
                 "zoom": false,
+                "zoomPixels": 1024,
               },
               "config": Object {
                 "viewerUrl": "test",
@@ -39,6 +41,7 @@ ShallowWrapper {
                 "viewerUrl": "test",
               },
               "panel": Object {
+                "height": 300,
                 "viewerUrl": "test",
               },
               "videoOverlay": Object {

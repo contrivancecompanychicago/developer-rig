@@ -1,22 +1,21 @@
-export enum ExtensionActivationStatus {
-  Active = 'active',
-  Inactive = 'inactive',
-}
 export enum ExtensionAnchor {
   Hidden = 'hidden',
   Panel = 'panel',
   Overlay = 'videoOverlay',
   Component = 'component',
 }
+
 export enum ExtensionMode {
   Config = 'config',
   Dashboard = 'dashboard',
   Viewer = 'viewer',
 }
+
 export enum ExtensionPlatform {
   Mobile = 'mobile',
   Web = 'web',
 }
+
 export enum ExtensionState {
   Testing = 'Testing',
   HostedTest = 'Assets Uploaded',
@@ -27,6 +26,7 @@ export enum ExtensionState {
   PendingAction = 'Pending Action',
   Uploading = 'Uploading',
 }
+
 export enum ExtensionAction {
   TwitchExtAuth = 'twitch-ext-auth',
   TwitchExtBootstrap = 'twitch-ext-bootstrap',
@@ -53,92 +53,13 @@ export enum ExtensionAction {
   TwitchExtPubsubListen = 'twitch-ext-pubsub-listen',
   TwitchExtPubsubUnlisten = 'twitch-ext-pubsub-unlisten',
 }
-export const DefaultZoomPixelWidth = 1024;
 
 export enum ExtensionViewType {
-    Component = "component",
-    Config = "config",
-    Hidden = "hidden",
-    LiveConfig = "liveConfig",
-    Mobile = "mobile",
-    Panel = "panel",
-    VideoOverlay = "videoOverlay",
+  Component = "component",
+  Config = "config",
+  Hidden = "hidden",
+  LiveConfig = "liveConfig",
+  Mobile = "mobile",
+  Panel = "panel",
+  VideoOverlay = "videoOverlay",
 }
-export type ExtensionView = {
-    viewerUrl: string;
-};
-export type ComponentView = ExtensionView & {
-    aspectHeight: number;
-    aspectWidth: number;
-    size: number;
-    zoom: boolean;
-    zoomPixels: number;
-};
-export type ConfigView = ExtensionView;
-export type HiddenView = ExtensionView;
-export type LiveConfigView = ExtensionView;
-export type MobileView = ExtensionView;
-export type PanelView = ExtensionView & {
-    height: number;
-};
-export type VideoOverlayView = ExtensionView;
-export type ExtensionViews = {
-    [ExtensionViewType.Component]?: ComponentView;
-    [ExtensionViewType.Config]?: ConfigView;
-    [ExtensionViewType.Hidden]?: HiddenView;
-    [ExtensionViewType.LiveConfig]?: LiveConfigView;
-    [ExtensionViewType.Mobile]?: MobileView;
-    [ExtensionViewType.Panel]?: PanelView;
-    [ExtensionViewType.VideoOverlay]?: VideoOverlayView;
-};
-export interface ExtensionIcons {
-    square24?: string;
-    square100: string;
-    discoverySplash?: string;
-}
-export interface ExtensionObject {
-    authorName: string;
-    bitsEnabled: boolean;
-    clientId: string;
-    description: string;
-    iconUrl: string;
-    iconUrls: ExtensionIcons;
-    id: string;
-    name: string;
-    requestIdentityLink: boolean;
-    sku: string;
-    summary: string;
-    token: string;
-    version: string;
-    views: ExtensionViews;
-    vendorCode: string;
-    state: ExtensionState;
-    whitelistedConfigUrls: string[];
-    whitelistedPanelUrls: string[];
-}
-export interface ExtensionActivationConfig {
-    anchor: ExtensionAnchor;
-    slot: string;
-    state: ExtensionActivationStatus;
-    x?: number;
-    y?: number;
-}
-export interface ExtensionInstallation {
-    id: string;
-    extension: ExtensionObject;
-    activationConfig: ExtensionActivationConfig;
-}
-export interface ComponentExtensionPosition {
-    x: number;
-    y: number;
-}
-export interface ComponentDisplayState {
-    anchor: ExtensionAnchor.Component;
-    position: ComponentExtensionPosition;
-    isVisible: boolean;
-}
-export interface OverlayDisplayState {
-    anchor: ExtensionAnchor.Overlay;
-    isVisible: boolean;
-}
-export type ExtensionDisplayState = ComponentDisplayState | OverlayDisplayState;

@@ -1,4 +1,5 @@
 window['extension-coordinator'] = (function() {
+  const DEFAULT_ZOOM_PIXEL_WIDTH = 1024;
   const CONFIG_FRAME_HEIGHT = 700;
   const DEFAULT_FRAME_HEIGHT = 300;
   const DEFAULT_IFRAME_SANDBOX_ATTRIBUTES = [
@@ -81,7 +82,7 @@ window['extension-coordinator'] = (function() {
     getComponentSizeFromView: function(playerWidth, playerHeight, component) {
       const componentPctWidth = component.aspectWidth / 1e4;
       const componentPctHeight = component.aspectHeight / 1e4;
-      const scaleWidth = component.zoomPixels || DefaultZoomPixelWidth;
+      const scaleWidth = component.zoomPixels || DEFAULT_ZOOM_PIXEL_WIDTH;
       const width = playerWidth * componentPctWidth;
       const height = playerHeight * componentPctHeight;
       return {

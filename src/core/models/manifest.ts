@@ -1,6 +1,6 @@
-import { ExtensionAnchor, ExtensionPlatform } from '../../constants/extension-coordinator';
+import { ExtensionAnchor, ExtensionPlatform, ExtensionState, ExtensionViewType } from '../../constants/extension-coordinator';
 
-export function getSupportedAnchors(views: ManifestViews): ExtensionAnchor[] {
+export function getSupportedAnchors(views: ExtensionViews): ExtensionAnchor[] {
   const anchors = [];
   if (views.videoOverlay && views.videoOverlay.viewerUrl) {
     anchors.push(ExtensionAnchor.Overlay);
@@ -16,7 +16,8 @@ export function getSupportedAnchors(views: ManifestViews): ExtensionAnchor[] {
 
   return anchors;
 }
-export function getSupportedPlatforms(views: ManifestViews): ExtensionPlatform[] {
+
+export function getSupportedPlatforms(views: ExtensionViews): ExtensionPlatform[] {
   const platforms = [ExtensionPlatform.Web];
 
   if (views.mobile && views.mobile.viewerUrl) {
@@ -26,26 +27,35 @@ export function getSupportedPlatforms(views: ManifestViews): ExtensionPlatform[]
   return platforms;
 }
 
-export interface ManifestView {
-  aspectHeight?: number;
-  aspectWidth?: number;
-  size?: number;
-  zoom?: boolean;
-  zoomPixels?: number;
-  height?: number;
+export type ExtensionView = {
   viewerUrl: string;
-}
+};
 
-export interface ManifestViews {
-  config?: ManifestView;
-  liveConfig?: ManifestView;
-  panel?: ManifestView;
-  videoOverlay?: ManifestView;
-  mobile?: ManifestView;
-  component?: ManifestView;
-}
+export type ComponentView = ExtensionView & {
+  aspectHeight: number;
+  aspectWidth: number;
+  size: number;
+  zoom: boolean;
+  zoomPixels: number;
+};
+export type ConfigView = ExtensionView;
+export type LiveConfigView = ExtensionView;
+export type MobileView = ExtensionView;
+export type PanelView = ExtensionView & {
+  height: number;
+};
+export type VideoOverlayView = ExtensionView;
 
-export interface ExtensionManifest {
+export type ExtensionViews = {
+  [ExtensionViewType.Component]?: ComponentView;
+  [ExtensionViewType.Config]?: ConfigView;
+  [ExtensionViewType.LiveConfig]?: LiveConfigView;
+  [ExtensionViewType.Mobile]?: MobileView;
+  [ExtensionViewType.Panel]?: PanelView;
+  [ExtensionViewType.VideoOverlay]?: VideoOverlayView;
+};
+
+export type ExtensionManifest = {
   anchor: string;
   assetUrls?: string[];
   authorName: string;
@@ -66,14 +76,14 @@ export interface ExtensionManifest {
   requiredBroadcasterAbilities?: string[];
   screenshotUrls?: string[];
   sku: string;
-  state: string;
+  state: ExtensionState;
   summary: string;
   supportEmail: string;
   vendorCode: string;
   version: string;
   viewerUrl?: string;
   viewerUrls?: Object;
-  views: ManifestViews;
+  views: ExtensionViews;
   whitelistedConfigUrls: string[];
   whitelistedPanelUrls: string[];
-}
+};

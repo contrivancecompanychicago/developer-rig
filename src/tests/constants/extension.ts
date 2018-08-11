@@ -1,7 +1,7 @@
 import { MobileOrientation } from '../../constants/mobile';
 import { ExtensionManifest } from '../../core/models/manifest';
 import { RigExtensionView } from '../../core/models/rig';
-import { ExtensionMode } from '../../constants/extension-coordinator';
+import { ExtensionMode, ExtensionState } from '../../constants/extension-coordinator';
 
 export const ManifestForTest: ExtensionManifest = {
   anchor: 'panel',
@@ -23,17 +23,18 @@ export const ManifestForTest: ExtensionManifest = {
   requiredBroadcasterAbilities: ['test'],
   screenshotUrls: ['test.png'],
   sku: 'test',
-  state: 'test',
+  state: ExtensionState.Testing,
   summary: 'test',
   supportEmail: 'test',
   vendorCode: 'test',
   version: '0.0.1',
   views: {
     panel: {
-      viewerUrl: 'test'
+      viewerUrl: 'test',
+      height: 300,
     },
     config: {
-      viewerUrl: 'test'
+      viewerUrl: 'test',
     },
     liveConfig: {
       viewerUrl: 'test',
@@ -41,13 +42,16 @@ export const ManifestForTest: ExtensionManifest = {
     component: {
       aspectHeight: 3000,
       aspectWidth: 2500,
+      size: 0,
       zoom: false,
+      zoomPixels: 1024,
       viewerUrl: 'test',
     }
   },
   whitelistedConfigUrls: [],
   whitelistedPanelUrls: [],
-}
+};
+
 export const ExtensionForTest = {
   authorName: 'test',
   id: 'id',
@@ -56,17 +60,18 @@ export const ExtensionForTest = {
   name: 'name',
   requestIdentityLink: false,
   sku: 'sku',
-  state: 'state',
+  state: ExtensionState.Testing,
   summary: 'summary',
   token: 'token',
   vendorCode: 'vendorCode',
   version: '0.1',
   views: {
     panel: {
-      viewerUrl: 'test'
+      viewerUrl: 'test',
+      height: 300,
     },
     config: {
-      viewerUrl: 'test'
+      viewerUrl: 'test',
     },
     liveConfig: {
       viewerUrl: 'test',
@@ -80,7 +85,9 @@ export const ExtensionForTest = {
     component: {
       aspectHeight: 3000,
       aspectWidth: 2500,
+      size: 0,
       zoom: false,
+      zoomPixels: 1024,
       viewerUrl: 'test',
     }
   },
@@ -95,7 +102,7 @@ export function createViewsForTest(numOfViews: number, type: string, role: strin
     x: 0,
     y: 0,
     orientation: MobileOrientation.Portrait,
-  }
+  };
   const extViews = [];
   if (extras) {
     ex.x = extras.x;
@@ -113,7 +120,7 @@ export function createViewsForTest(numOfViews: number, type: string, role: strin
       x: ex.x,
       y: ex.y,
       orientation: ex.orientation,
-    })
+    });
   }
   return extViews;
 }

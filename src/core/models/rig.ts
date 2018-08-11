@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { PositionProperty } from 'csstype';
-import { ManifestViews } from './manifest';
+import { ExtensionViews } from './manifest';
 
-export interface RigExtensionView {
+export type RigExtensionView = {
   x: number;
   y: number;
   orientation: string;
@@ -16,27 +16,14 @@ export interface RigExtensionView {
   openEditViewHandler: (id: string) => void;
   position?: Position;
   frameSize?: FrameSize;
-}
+};
 
-export interface ViewStyles extends React.CSSProperties {
-  border?: string;
-  position?: PositionProperty;
-  left?: string;
-  right?: string;
-  top?: string;
-  bottom?: string;
-  width?: string;
-  height?: string;
-  transformOrigin?: string;
-  transform?: string;
-}
-
-export interface FrameSize {
+export type FrameSize = {
   height: number;
   width: number;
-}
+};
 
-export interface RigExtension {
+export type RigExtension = {
   authorName: string;
   id: string;
   clientId?: string;
@@ -50,9 +37,9 @@ export interface RigExtension {
   token: string;
   vendorCode: string;
   version: string;
-  views: ManifestViews;
+  views: ExtensionViews;
   whitelistedConfigUrls: string[];
   whitelistedPanelUrls: string[];
   channelId: string;
   bitsEnabled: boolean;
-}
+};

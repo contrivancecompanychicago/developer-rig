@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as classNames from 'classnames';
-import { ExtensionViews, ProductManagement } from '../constants/nav-items';
+import { Labels } from '../constants/nav-items';
 import { UserDropdown } from '../user-dropdown';
 import { LoginButton } from '../login-button';
 import { UserSession } from '../core/models/user-session';
@@ -38,12 +38,12 @@ export class RigNavComponent extends React.Component<Props> {
     const extensionViewsClass = classNames({
       'offset': true,
       'top-nav-item': true,
-      'top-nav-item__selected': selectedView === ExtensionViews,
+      'top-nav-item__selected': selectedView === Labels.ExtensionViews,
     });
 
     const productManagementClass = classNames({
       'top-nav-item': true,
-      'top-nav-item__selected': selectedView === ProductManagement,
+      'top-nav-item__selected': selectedView === Labels.ProductManagement,
       'top-nav-item__disabled': !(session && session.login) || !(manifest && manifest.bitsEnabled),
     });
 

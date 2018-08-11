@@ -9,11 +9,11 @@ import { RadioOption } from './radio-option';
 import { DivOption } from './div-option';
 import * as closeButton from '../img/close_icon.png';
 import { MobileOrientation, DefaultMobileOrientation, MobileSizes } from '../constants/mobile';
-import { ManifestViews, getSupportedAnchors, getSupportedPlatforms } from '../core/models/manifest';
+import { ExtensionViews, getSupportedAnchors, getSupportedPlatforms } from '../core/models/manifest';
 import { ExtensionAnchor, ExtensionMode, ExtensionPlatform } from '../constants/extension-coordinator';
 
 interface ExtensionViewDialogProps {
-  extensionViews: ManifestViews,
+  extensionViews: ExtensionViews,
   closeHandler: Function,
   saveHandler: Function,
   show?: boolean,

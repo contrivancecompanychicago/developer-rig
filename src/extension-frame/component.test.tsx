@@ -2,7 +2,7 @@ import { setupShallowTest } from '../tests/enzyme-util/shallow';
 import { setupMountTest } from '../tests/enzyme-util/mount';
 import { ExtensionForTest } from '../tests/constants/extension';
 import { ExtensionFrame } from './component';
-import { ExtensionViewType, ExtensionAnchor, ExtensionMode } from '../constants/extension-coordinator';
+import { ExtensionViewType, ExtensionAnchor, ExtensionMode, ExtensionState } from '../constants/extension-coordinator';
 
 describe('<ExtensionFrame />', () => {
   const setupShallow = setupShallowTest(ExtensionFrame, () => ({
@@ -51,18 +51,18 @@ describe('<ExtensionFrame />', () => {
           'name': 'name',
           'requestIdentityLink': false,
           'sku': 'sku',
-          'state': 'state',
+          'state': ExtensionState.Testing,
           'summary': 'summary',
           'token': 'token',
           'vendorCode': 'vendorCode',
           'version': '0.1',
           'views': {
-            'component': { 'aspectHeight': 3000, 'aspectWidth': 2500, 'viewerUrl': 'test', 'zoom': false },
+            'component': { 'aspectHeight': 3000, 'aspectWidth': 2500, 'size': 0, 'viewerUrl': 'test', 'zoom': false, zoomPixels: 1024 },
             'config': { 'viewerUrl': 'test' },
             'liveConfig': { 'viewerUrl': 'test' },
             'videoOverlay': { 'viewerUrl': 'test' },
             'mobile': { 'viewerUrl': 'test' },
-            'panel': { 'viewerUrl': 'test' }
+            'panel': { height: 300, 'viewerUrl': 'test' }
           },
           'whitelistedConfigUrls': ['foo'],
           'whitelistedPanelUrls': ['bar'] },
@@ -104,18 +104,18 @@ describe('<ExtensionFrame />', () => {
           'name': 'name',
           'requestIdentityLink': false,
           'sku': 'sku',
-          'state': 'state',
+          'state': ExtensionState.Testing,
           'summary': 'summary',
           'token': 'token',
           'vendorCode': 'vendorCode',
           'version': '0.1',
           'views': {
-            'component': { 'aspectHeight': 3000, 'aspectWidth': 2500, 'viewerUrl': 'test', 'zoom': false },
+            'component': { 'aspectHeight': 3000, 'aspectWidth': 2500, 'size': 0, 'viewerUrl': 'test', 'zoom': false, zoomPixels: 1024 },
             'config': { 'viewerUrl': 'test' },
             'liveConfig': { 'viewerUrl': 'test' },
             'videoOverlay': { 'viewerUrl': 'test' },
             'mobile': { 'viewerUrl': 'test' },
-            'panel': { 'viewerUrl': 'test' }
+            'panel': { height: 300, 'viewerUrl': 'test' }
           },
           'whitelistedConfigUrls': ['foo'],
           'whitelistedPanelUrls': ['bar'] },
