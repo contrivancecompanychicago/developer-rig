@@ -13,16 +13,25 @@ export interface TokenPayload {
   exp: number;
   user_id?: string;
   opaque_user_id: string;
-  channel_id: string;
+  channel_id?: string;
   role: string;
   pubsub_perms: PubsubPerms;
 }
 
-export function createSignedToken(role: string, opaqueUserId: string, userId: string, channelId: string, secret: string): string{
-  let pubsub_perms: PubsubPerms = {
-      listen: ['broadcast', 'global'],
+export type TokenSpec = {
+  role: string,
+  secret: string,
+  opaqueUserId?: string,
+  channelId?: string,
+  userId?: string,
+};
+
+export function createSignedToken(tokenSpec: TokenSpec): string {
+  const { role, secret, opaqueUserId, channelId, userId } = tokenSpec;
+  const pubsub_perms: PubsubPerms = {
+    listen: ['broadcast', 'global'],
   }
-  if (role === 'broadcaster' ) {
+  if (role === 'broadcaster') {
     pubsub_perms.send = ['broadcast']
   } else if (role === RigRole) {
     pubsub_perms.send = ['*']
@@ -31,13 +40,14 @@ export function createSignedToken(role: string, opaqueUserId: string, userId: st
 
   const payload: TokenPayload = {
     exp: Math.floor(((Date.now() + OneYearMS) / 1000)),
-    opaque_user_id: opaqueUserId,
-    channel_id: channelId,
-    role: role,
-    pubsub_perms: pubsub_perms,
+    opaque_user_id: opaqueUserId || '',
+    role,
+    pubsub_perms,
   };
-
-  if (userId !== '') {
+  if (channelId) {
+    payload['channel_id'] = channelId;
+  }
+  if (userId) {
     payload['user_id'] = userId;
   }
 

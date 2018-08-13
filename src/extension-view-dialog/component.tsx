@@ -29,7 +29,7 @@ interface State {
   height: number;
   identityOption: string;
   orientation: string;
-  opaqueId: string;
+  opaqueId?: string;
   [key: string]: number | string;
 }
 
@@ -43,7 +43,6 @@ const InitialState = {
   height: DefaultCustomDimensions.height,
   identityOption: DefaultIdentityOption,
   orientation: DefaultMobileOrientation,
-  opaqueId: '',
 };
 
 export class ExtensionViewDialog extends React.Component<ExtensionViewDialogProps, State> {

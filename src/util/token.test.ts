@@ -1,5 +1,5 @@
 import { verify } from 'jsonwebtoken';
-import { createSignedToken } from './token';
+import { TokenSpec, createSignedToken } from './token';
 import { TokenPayload } from './token';
 
 describe('token', () => {
@@ -20,7 +20,8 @@ describe('token', () => {
     }
 
     it('should leave userId out if it is not specified', () => {
-      const token = createSignedToken(role, ouid, '', channelId, secret);
+      const tokenSpec = { role, secret, opaqueUserId: ouid, channelId };
+      const token = createSignedToken(tokenSpec);
       const payload = verify(token, Buffer.from(secret, 'base64')) as TokenPayload;
 
       expect(payload.opaque_user_id).toBe(expected.opaqueUserId);
@@ -30,7 +31,8 @@ describe('token', () => {
     });
 
     it('should have userId if it is specified', () => {
-      const token = createSignedToken(role, ouid, uid, channelId, secret);
+      const tokenSpec = { role, secret, opaqueUserId: ouid, channelId, userId: uid };
+      const token = createSignedToken(tokenSpec);
       const payload = verify(token, Buffer.from(secret, 'base64')) as TokenPayload;
 
       expect(payload.opaque_user_id).toBe(expected.opaqueUserId);
