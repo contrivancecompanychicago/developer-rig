@@ -13,6 +13,7 @@ import { ExtensionViews, getSupportedAnchors, getSupportedPlatforms } from '../c
 import { ExtensionAnchor, ExtensionMode, ExtensionPlatform } from '../constants/extension-coordinator';
 
 interface ExtensionViewDialogProps {
+  channelId: string,
   extensionViews: ExtensionViews,
   closeHandler: Function,
   saveHandler: Function,
@@ -21,6 +22,7 @@ interface ExtensionViewDialogProps {
 
 interface State {
   extensionViewType: ExtensionAnchor | ExtensionMode | ExtensionPlatform;
+  channelId: string,
   frameSize: string;
   viewerType: string;
   x: number;
@@ -48,6 +50,7 @@ const InitialState = {
 export class ExtensionViewDialog extends React.Component<ExtensionViewDialogProps, State> {
   public state: State = {
     ...InitialState,
+    channelId: this.props.channelId,
     extensionViewType: getSupportedAnchors(this.props.extensionViews)[0],
   }
 
@@ -299,6 +302,7 @@ export class ExtensionViewDialog extends React.Component<ExtensionViewDialogProp
                 </div>
               </div>
             </div>}
+          <label className="new-extension-view__channel-id-label">Channel ID: <input type="text" name="channelId" value={this.state.channelId} onChange={this.onChange} /></label>
           <hr className="dialog__divider" />
           <div className="dialog_bottom-bar">
             <div className="bottom-bar__save" onClick={this.save}> Save </div>

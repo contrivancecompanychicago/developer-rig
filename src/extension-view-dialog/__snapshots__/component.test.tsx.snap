@@ -283,6 +283,17 @@ ShallowWrapper {
                               </div>
                     </div>
           </div>
+          <label
+                    className="new-extension-view__channel-id-label"
+          >
+                    Channel ID: 
+                    <input
+                              name="channelId"
+                              onChange={[Function]}
+                              type="text"
+                              value={undefined}
+                    />
+          </label>
           <hr
                     className="dialog__divider"
           />
@@ -573,6 +584,17 @@ ShallowWrapper {
                             </div>
               </div>
 </div>,
+            <label
+              className="new-extension-view__channel-id-label"
+>
+              Channel ID: 
+              <input
+                            name="channelId"
+                            onChange={[Function]}
+                            type="text"
+                            value={undefined}
+              />
+</label>,
             <hr
               className="dialog__divider"
 />,
@@ -2324,6 +2346,42 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": Array [
+                "Channel ID: ",
+                <input
+                  name="channelId"
+                  onChange={[Function]}
+                  type="text"
+                  value={undefined}
+/>,
+              ],
+              "className": "new-extension-view__channel-id-label",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Channel ID: ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "channelId",
+                  "onChange": [Function],
+                  "type": "text",
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "className": "dialog__divider",
             },
             "ref": null,
@@ -2649,6 +2707,17 @@ ShallowWrapper {
                                     </div>
                         </div>
             </div>
+            <label
+                        className="new-extension-view__channel-id-label"
+            >
+                        Channel ID: 
+                        <input
+                                    name="channelId"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value={undefined}
+                        />
+            </label>
             <hr
                         className="dialog__divider"
             />
@@ -2939,6 +3008,17 @@ ShallowWrapper {
                                 </div>
                 </div>
 </div>,
+              <label
+                className="new-extension-view__channel-id-label"
+>
+                Channel ID: 
+                <input
+                                name="channelId"
+                                onChange={[Function]}
+                                type="text"
+                                value={undefined}
+                />
+</label>,
               <hr
                 className="dialog__divider"
 />,
@@ -4690,6 +4770,42 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "children": Array [
+                  "Channel ID: ",
+                  <input
+                    name="channelId"
+                    onChange={[Function]}
+                    type="text"
+                    value={undefined}
+/>,
+                ],
+                "className": "new-extension-view__channel-id-label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Channel ID: ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "channelId",
+                    "onChange": [Function],
+                    "type": "text",
+                    "value": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
                 "className": "dialog__divider",
               },
               "ref": null,
@@ -4918,6 +5034,17 @@ ShallowWrapper {
                               </div>
                     </div>
           </div>
+          <label
+                    className="new-extension-view__channel-id-label"
+          >
+                    Channel ID: 
+                    <input
+                              name="channelId"
+                              onChange={[Function]}
+                              type="text"
+                              value={undefined}
+                    />
+          </label>
           <hr
                     className="dialog__divider"
           />
@@ -5078,6 +5205,17 @@ ShallowWrapper {
                             </div>
               </div>
 </div>,
+            <label
+              className="new-extension-view__channel-id-label"
+>
+              Channel ID: 
+              <input
+                            name="channelId"
+                            onChange={[Function]}
+                            type="text"
+                            value={undefined}
+              />
+</label>,
             <hr
               className="dialog__divider"
 />,
@@ -5690,6 +5828,42 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": Array [
+                "Channel ID: ",
+                <input
+                  name="channelId"
+                  onChange={[Function]}
+                  type="text"
+                  value={undefined}
+/>,
+              ],
+              "className": "new-extension-view__channel-id-label",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Channel ID: ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "channelId",
+                  "onChange": [Function],
+                  "type": "text",
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "className": "dialog__divider",
             },
             "ref": null,
@@ -5885,6 +6059,17 @@ ShallowWrapper {
                                     </div>
                         </div>
             </div>
+            <label
+                        className="new-extension-view__channel-id-label"
+            >
+                        Channel ID: 
+                        <input
+                                    name="channelId"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value={undefined}
+                        />
+            </label>
             <hr
                         className="dialog__divider"
             />
@@ -6045,6 +6230,17 @@ ShallowWrapper {
                                 </div>
                 </div>
 </div>,
+              <label
+                className="new-extension-view__channel-id-label"
+>
+                Channel ID: 
+                <input
+                                name="channelId"
+                                onChange={[Function]}
+                                type="text"
+                                value={undefined}
+                />
+</label>,
               <hr
                 className="dialog__divider"
 />,
@@ -6657,6 +6853,42 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "children": Array [
+                  "Channel ID: ",
+                  <input
+                    name="channelId"
+                    onChange={[Function]}
+                    type="text"
+                    value={undefined}
+/>,
+                ],
+                "className": "new-extension-view__channel-id-label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Channel ID: ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "channelId",
+                    "onChange": [Function],
+                    "type": "text",
+                    "value": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
                 "className": "dialog__divider",
               },
               "ref": null,
@@ -6982,6 +7214,17 @@ ShallowWrapper {
                               </div>
                     </div>
           </div>
+          <label
+                    className="new-extension-view__channel-id-label"
+          >
+                    Channel ID: 
+                    <input
+                              name="channelId"
+                              onChange={[Function]}
+                              type="text"
+                              value={undefined}
+                    />
+          </label>
           <hr
                     className="dialog__divider"
           />
@@ -7236,6 +7479,17 @@ ShallowWrapper {
                             </div>
               </div>
 </div>,
+            <label
+              className="new-extension-view__channel-id-label"
+>
+              Channel ID: 
+              <input
+                            name="channelId"
+                            onChange={[Function]}
+                            type="text"
+                            value={undefined}
+              />
+</label>,
             <hr
               className="dialog__divider"
 />,
@@ -8731,6 +8985,42 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": Array [
+                "Channel ID: ",
+                <input
+                  name="channelId"
+                  onChange={[Function]}
+                  type="text"
+                  value={undefined}
+/>,
+              ],
+              "className": "new-extension-view__channel-id-label",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Channel ID: ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "channelId",
+                  "onChange": [Function],
+                  "type": "text",
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "className": "dialog__divider",
             },
             "ref": null,
@@ -9020,6 +9310,17 @@ ShallowWrapper {
                                     </div>
                         </div>
             </div>
+            <label
+                        className="new-extension-view__channel-id-label"
+            >
+                        Channel ID: 
+                        <input
+                                    name="channelId"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value={undefined}
+                        />
+            </label>
             <hr
                         className="dialog__divider"
             />
@@ -9274,6 +9575,17 @@ ShallowWrapper {
                                 </div>
                 </div>
 </div>,
+              <label
+                className="new-extension-view__channel-id-label"
+>
+                Channel ID: 
+                <input
+                                name="channelId"
+                                onChange={[Function]}
+                                type="text"
+                                value={undefined}
+                />
+</label>,
               <hr
                 className="dialog__divider"
 />,
@@ -10769,6 +11081,42 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "children": Array [
+                  "Channel ID: ",
+                  <input
+                    name="channelId"
+                    onChange={[Function]}
+                    type="text"
+                    value={undefined}
+/>,
+                ],
+                "className": "new-extension-view__channel-id-label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Channel ID: ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "channelId",
+                    "onChange": [Function],
+                    "type": "text",
+                    "value": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
                 "className": "dialog__divider",
               },
               "ref": null,
@@ -10984,6 +11332,17 @@ ShallowWrapper {
                               </div>
                     </div>
           </div>
+          <label
+                    className="new-extension-view__channel-id-label"
+          >
+                    Channel ID: 
+                    <input
+                              name="channelId"
+                              onChange={[Function]}
+                              type="text"
+                              value={undefined}
+                    />
+          </label>
           <hr
                     className="dialog__divider"
           />
@@ -11137,6 +11496,17 @@ ShallowWrapper {
                             </div>
               </div>
 </div>,
+            <label
+              className="new-extension-view__channel-id-label"
+>
+              Channel ID: 
+              <input
+                            name="channelId"
+                            onChange={[Function]}
+                            type="text"
+                            value={undefined}
+              />
+</label>,
             <hr
               className="dialog__divider"
 />,
@@ -11713,6 +12083,42 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "children": Array [
+                "Channel ID: ",
+                <input
+                  name="channelId"
+                  onChange={[Function]}
+                  type="text"
+                  value={undefined}
+/>,
+              ],
+              "className": "new-extension-view__channel-id-label",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Channel ID: ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "name": "channelId",
+                  "onChange": [Function],
+                  "type": "text",
+                  "value": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+            ],
+            "type": "label",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
               "className": "dialog__divider",
             },
             "ref": null,
@@ -11901,6 +12307,17 @@ ShallowWrapper {
                                     </div>
                         </div>
             </div>
+            <label
+                        className="new-extension-view__channel-id-label"
+            >
+                        Channel ID: 
+                        <input
+                                    name="channelId"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value={undefined}
+                        />
+            </label>
             <hr
                         className="dialog__divider"
             />
@@ -12054,6 +12471,17 @@ ShallowWrapper {
                                 </div>
                 </div>
 </div>,
+              <label
+                className="new-extension-view__channel-id-label"
+>
+                Channel ID: 
+                <input
+                                name="channelId"
+                                onChange={[Function]}
+                                type="text"
+                                value={undefined}
+                />
+</label>,
               <hr
                 className="dialog__divider"
 />,
@@ -12624,6 +13052,42 @@ ShallowWrapper {
                 "type": "div",
               },
               "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Channel ID: ",
+                  <input
+                    name="channelId"
+                    onChange={[Function]}
+                    type="text"
+                    value={undefined}
+/>,
+                ],
+                "className": "new-extension-view__channel-id-label",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Channel ID: ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "name": "channelId",
+                    "onChange": [Function],
+                    "type": "text",
+                    "value": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+              ],
+              "type": "label",
             },
             Object {
               "instance": null,
