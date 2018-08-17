@@ -88,7 +88,7 @@ function getClientEnvironment(publicUrl) {
   raw['EXT_SECRET'] = process.env.EXT_SECRET || '';
   raw['EXT_VERSION'] = process.env.EXT_VERSION || '';
   raw['EXT_CHANNEL_ID'] = process.env.EXT_CHANNEL || '';
-  raw['EXT_USER_NAME'] = process.env.EXT_OWNER_NAME || '';
+  raw['EXT_OWNER_NAME'] = process.env.EXT_OWNER_NAME || '';
   raw['COORDINATOR_URL'] = process.env.COORDINATOR_URL || '';
   raw['API_HOST'] = process.env.API_HOST || '';
   raw['GIT_RELEASE'] = process.env.GIT_RELEASE || '';

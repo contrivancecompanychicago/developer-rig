@@ -38,7 +38,7 @@ interface State {
   secret: string;
   version: string;
   channelId: string;
-  userName: string;
+  ownerName: string;
   extensionViews: RigExtensionView[],
   manifest: ExtensionManifest;
   showExtensionsView: boolean;
@@ -59,7 +59,7 @@ export class RigComponent extends React.Component<Props, State> {
     secret: process.env.EXT_SECRET,
     version: process.env.EXT_VERSION,
     channelId: process.env.EXT_CHANNEL_ID,
-    userName: process.env.EXT_USER_NAME,
+    ownerName: process.env.EXT_OWNER_NAME,
     extensionViews: [],
     manifest: {} as ExtensionManifest,
     showExtensionsView: false,
@@ -181,7 +181,7 @@ export class RigComponent extends React.Component<Props, State> {
         nextExtensionViewId.toString(),
         extensionViewDialogState.viewerType,
         linked,
-        this.state.userName,
+        this.state.ownerName,
         this.state.channelId,
         this.state.secret,
         extensionViewDialogState.opaqueId,
@@ -274,11 +274,11 @@ export class RigComponent extends React.Component<Props, State> {
   }
 
   private fetchInitialConfiguration() {
-    if (this.state.userName) {
+    if (this.state.ownerName) {
       fetchManifest(
         this.state.apiHost,
         this.state.clientId,
-        this.state.userName,
+        this.state.ownerName,
         this.state.version,
         this.state.channelId,
         this.state.secret
@@ -314,7 +314,7 @@ export class RigComponent extends React.Component<Props, State> {
             authToken: accessToken,
             profileImageUrl: resp.profile_image_url,
           }
-          this.state.userName = resp.login;
+          this.state.ownerName = resp.login;
           this.props.userLogin(userSess);
           localStorage.setItem('rigLogin', JSON.stringify(userSess));
           window.location.assign('/');
@@ -327,7 +327,7 @@ export class RigComponent extends React.Component<Props, State> {
     }
     else if (rigLogin) {
       const login = JSON.parse(rigLogin);
-      this.state.userName = login.login;
+      this.state.ownerName = login.login;
       this.props.userLogin({
         login: login.login,
         authToken: login.authToken,
