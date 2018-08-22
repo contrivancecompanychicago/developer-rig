@@ -79,14 +79,14 @@ ShallowWrapper {
                                         />
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="configOff.png"
                                                   name="Configuration"
                                                   onChange={[Function]}
                                                   value="config"
                                         />
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="dashboardOff.png"
                                                   name="Dashboard"
                                                   onChange={[Function]}
                                                   value="dashboard"
@@ -369,14 +369,14 @@ ShallowWrapper {
                                           />
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="configOff.png"
                                                         name="Configuration"
                                                         onChange={[Function]}
                                                         value="config"
                                           />
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="dashboardOff.png"
                                                         name="Dashboard"
                                                         onChange={[Function]}
                                                         value="dashboard"
@@ -701,14 +701,14 @@ ShallowWrapper {
                                     />
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="configOff.png"
                                                       name="Configuration"
                                                       onChange={[Function]}
                                                       value="config"
                                     />
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="dashboardOff.png"
                                                       name="Dashboard"
                                                       onChange={[Function]}
                                                       value="dashboard"
@@ -882,14 +882,14 @@ ShallowWrapper {
                       />
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="configOff.png"
                                             name="Configuration"
                                             onChange={[Function]}
                                             value="config"
                       />
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="dashboardOff.png"
                                             name="Dashboard"
                                             onChange={[Function]}
                                             value="dashboard"
@@ -927,14 +927,14 @@ ShallowWrapper {
 />,
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="configOff.png"
                           name="Configuration"
                           onChange={[Function]}
                           value="config"
 />,
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="dashboardOff.png"
                           name="Dashboard"
                           onChange={[Function]}
                           value="dashboard"
@@ -965,7 +965,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "configOff.png",
                           "name": "Configuration",
                           "onChange": [Function],
                           "value": "config",
@@ -980,7 +980,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "dashboardOff.png",
                           "name": "Dashboard",
                           "onChange": [Function],
                           "value": "dashboard",
@@ -2445,14 +2445,14 @@ ShallowWrapper {
                                                 />
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                                 />
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -2735,14 +2735,14 @@ ShallowWrapper {
                                                 />
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="configOff.png"
                                                                 name="Configuration"
                                                                 onChange={[Function]}
                                                                 value="config"
                                                 />
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="dashboardOff.png"
                                                                 name="Dashboard"
                                                                 onChange={[Function]}
                                                                 value="dashboard"
@@ -3067,14 +3067,14 @@ ShallowWrapper {
                                         />
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                         />
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -3248,14 +3248,14 @@ ShallowWrapper {
                         />
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="configOff.png"
                                                 name="Configuration"
                                                 onChange={[Function]}
                                                 value="config"
                         />
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="dashboardOff.png"
                                                 name="Dashboard"
                                                 onChange={[Function]}
                                                 value="dashboard"
@@ -3293,14 +3293,14 @@ ShallowWrapper {
 />,
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="configOff.png"
                             name="Configuration"
                             onChange={[Function]}
                             value="config"
 />,
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="dashboardOff.png"
                             name="Dashboard"
                             onChange={[Function]}
                             value="dashboard"
@@ -3331,7 +3331,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "configOff.png",
                             "name": "Configuration",
                             "onChange": [Function],
                             "value": "config",
@@ -3346,7 +3346,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "dashboardOff.png",
                             "name": "Dashboard",
                             "onChange": [Function],
                             "value": "dashboard",
@@ -4844,14 +4844,14 @@ ShallowWrapper {
                                         />
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="configOff.png"
                                                   name="Configuration"
                                                   onChange={[Function]}
                                                   value="config"
                                         />
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="dashboardOff.png"
                                                   name="Dashboard"
                                                   onChange={[Function]}
                                                   value="dashboard"
@@ -5004,14 +5004,14 @@ ShallowWrapper {
                                           />
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="configOff.png"
                                                         name="Configuration"
                                                         onChange={[Function]}
                                                         value="config"
                                           />
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="dashboardOff.png"
                                                         name="Dashboard"
                                                         onChange={[Function]}
                                                         value="dashboard"
@@ -5206,14 +5206,14 @@ ShallowWrapper {
                                     />
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="configOff.png"
                                                       name="Configuration"
                                                       onChange={[Function]}
                                                       value="config"
                                     />
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="dashboardOff.png"
                                                       name="Dashboard"
                                                       onChange={[Function]}
                                                       value="dashboard"
@@ -5257,14 +5257,14 @@ ShallowWrapper {
                       />
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="configOff.png"
                                             name="Configuration"
                                             onChange={[Function]}
                                             value="config"
                       />
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="dashboardOff.png"
                                             name="Dashboard"
                                             onChange={[Function]}
                                             value="dashboard"
@@ -5302,14 +5302,14 @@ ShallowWrapper {
 />,
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="configOff.png"
                           name="Configuration"
                           onChange={[Function]}
                           value="config"
 />,
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="dashboardOff.png"
                           name="Dashboard"
                           onChange={[Function]}
                           value="dashboard"
@@ -5340,7 +5340,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "configOff.png",
                           "name": "Configuration",
                           "onChange": [Function],
                           "value": "config",
@@ -5355,7 +5355,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "dashboardOff.png",
                           "name": "Dashboard",
                           "onChange": [Function],
                           "value": "dashboard",
@@ -5811,14 +5811,14 @@ ShallowWrapper {
                                                 />
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                                 />
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -5971,14 +5971,14 @@ ShallowWrapper {
                                                 />
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="configOff.png"
                                                                 name="Configuration"
                                                                 onChange={[Function]}
                                                                 value="config"
                                                 />
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="dashboardOff.png"
                                                                 name="Dashboard"
                                                                 onChange={[Function]}
                                                                 value="dashboard"
@@ -6173,14 +6173,14 @@ ShallowWrapper {
                                         />
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                         />
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -6224,14 +6224,14 @@ ShallowWrapper {
                         />
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="configOff.png"
                                                 name="Configuration"
                                                 onChange={[Function]}
                                                 value="config"
                         />
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="dashboardOff.png"
                                                 name="Dashboard"
                                                 onChange={[Function]}
                                                 value="dashboard"
@@ -6269,14 +6269,14 @@ ShallowWrapper {
 />,
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="configOff.png"
                             name="Configuration"
                             onChange={[Function]}
                             value="config"
 />,
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="dashboardOff.png"
                             name="Dashboard"
                             onChange={[Function]}
                             value="dashboard"
@@ -6307,7 +6307,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "configOff.png",
                             "name": "Configuration",
                             "onChange": [Function],
                             "value": "config",
@@ -6322,7 +6322,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "dashboardOff.png",
                             "name": "Dashboard",
                             "onChange": [Function],
                             "value": "dashboard",
@@ -6821,14 +6821,14 @@ ShallowWrapper {
                                         />
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="configOff.png"
                                                   name="Configuration"
                                                   onChange={[Function]}
                                                   value="config"
                                         />
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="dashboardOff.png"
                                                   name="Dashboard"
                                                   onChange={[Function]}
                                                   value="dashboard"
@@ -7075,14 +7075,14 @@ ShallowWrapper {
                                           />
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="configOff.png"
                                                         name="Configuration"
                                                         onChange={[Function]}
                                                         value="config"
                                           />
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="dashboardOff.png"
                                                         name="Dashboard"
                                                         onChange={[Function]}
                                                         value="dashboard"
@@ -7371,14 +7371,14 @@ ShallowWrapper {
                                     />
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="configOff.png"
                                                       name="Configuration"
                                                       onChange={[Function]}
                                                       value="config"
                                     />
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="dashboardOff.png"
                                                       name="Dashboard"
                                                       onChange={[Function]}
                                                       value="dashboard"
@@ -7516,14 +7516,14 @@ ShallowWrapper {
                       />
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="configOff.png"
                                             name="Configuration"
                                             onChange={[Function]}
                                             value="config"
                       />
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="dashboardOff.png"
                                             name="Dashboard"
                                             onChange={[Function]}
                                             value="dashboard"
@@ -7568,14 +7568,14 @@ ShallowWrapper {
 />,
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="configOff.png"
                           name="Configuration"
                           onChange={[Function]}
                           value="config"
 />,
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="dashboardOff.png"
                           name="Dashboard"
                           onChange={[Function]}
                           value="dashboard"
@@ -7621,7 +7621,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "configOff.png",
                           "name": "Configuration",
                           "onChange": [Function],
                           "value": "config",
@@ -7636,7 +7636,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "dashboardOff.png",
                           "name": "Dashboard",
                           "onChange": [Function],
                           "value": "dashboard",
@@ -8859,14 +8859,14 @@ ShallowWrapper {
                                                 />
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                                 />
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -9113,14 +9113,14 @@ ShallowWrapper {
                                                 />
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="configOff.png"
                                                                 name="Configuration"
                                                                 onChange={[Function]}
                                                                 value="config"
                                                 />
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="dashboardOff.png"
                                                                 name="Dashboard"
                                                                 onChange={[Function]}
                                                                 value="dashboard"
@@ -9409,14 +9409,14 @@ ShallowWrapper {
                                         />
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                         />
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -9554,14 +9554,14 @@ ShallowWrapper {
                         />
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="configOff.png"
                                                 name="Configuration"
                                                 onChange={[Function]}
                                                 value="config"
                         />
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="dashboardOff.png"
                                                 name="Dashboard"
                                                 onChange={[Function]}
                                                 value="dashboard"
@@ -9606,14 +9606,14 @@ ShallowWrapper {
 />,
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="configOff.png"
                             name="Configuration"
                             onChange={[Function]}
                             value="config"
 />,
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="dashboardOff.png"
                             name="Dashboard"
                             onChange={[Function]}
                             value="dashboard"
@@ -9659,7 +9659,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "configOff.png",
                             "name": "Configuration",
                             "onChange": [Function],
                             "value": "config",
@@ -9674,7 +9674,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "dashboardOff.png",
                             "name": "Dashboard",
                             "onChange": [Function],
                             "value": "dashboard",
@@ -10910,14 +10910,14 @@ ShallowWrapper {
                               >
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="configOff.png"
                                                   name="Configuration"
                                                   onChange={[Function]}
                                                   value="config"
                                         />
                                         <DivOption
                                                   checked={false}
-                                                  img="panelOff.png"
+                                                  img="dashboardOff.png"
                                                   name="Dashboard"
                                                   onChange={[Function]}
                                                   value="dashboard"
@@ -11063,14 +11063,14 @@ ShallowWrapper {
                             >
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="configOff.png"
                                                         name="Configuration"
                                                         onChange={[Function]}
                                                         value="config"
                                           />
                                           <DivOption
                                                         checked={false}
-                                                        img="panelOff.png"
+                                                        img="dashboardOff.png"
                                                         name="Dashboard"
                                                         onChange={[Function]}
                                                         value="dashboard"
@@ -11258,14 +11258,14 @@ ShallowWrapper {
                   >
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="configOff.png"
                                                       name="Configuration"
                                                       onChange={[Function]}
                                                       value="config"
                                     />
                                     <DivOption
                                                       checked={false}
-                                                      img="panelOff.png"
+                                                      img="dashboardOff.png"
                                                       name="Dashboard"
                                                       onChange={[Function]}
                                                       value="dashboard"
@@ -11302,14 +11302,14 @@ ShallowWrapper {
 >
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="configOff.png"
                                             name="Configuration"
                                             onChange={[Function]}
                                             value="config"
                       />
                       <DivOption
                                             checked={false}
-                                            img="panelOff.png"
+                                            img="dashboardOff.png"
                                             name="Dashboard"
                                             onChange={[Function]}
                                             value="dashboard"
@@ -11340,14 +11340,14 @@ ShallowWrapper {
                       "children": Array [
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="configOff.png"
                           name="Configuration"
                           onChange={[Function]}
                           value="config"
 />,
                         <DivOption
                           checked={false}
-                          img="panelOff.png"
+                          img="dashboardOff.png"
                           name="Dashboard"
                           onChange={[Function]}
                           value="dashboard"
@@ -11363,7 +11363,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "configOff.png",
                           "name": "Configuration",
                           "onChange": [Function],
                           "value": "config",
@@ -11378,7 +11378,7 @@ ShallowWrapper {
                         "nodeType": "class",
                         "props": Object {
                           "checked": false,
-                          "img": "panelOff.png",
+                          "img": "dashboardOff.png",
                           "name": "Dashboard",
                           "onChange": [Function],
                           "value": "dashboard",
@@ -11827,14 +11827,14 @@ ShallowWrapper {
                                     >
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                                 />
                                                 <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -11980,14 +11980,14 @@ ShallowWrapper {
                                 >
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="configOff.png"
                                                                 name="Configuration"
                                                                 onChange={[Function]}
                                                                 value="config"
                                                 />
                                                 <DivOption
                                                                 checked={false}
-                                                                img="panelOff.png"
+                                                                img="dashboardOff.png"
                                                                 name="Dashboard"
                                                                 onChange={[Function]}
                                                                 value="dashboard"
@@ -12175,14 +12175,14 @@ ShallowWrapper {
                     >
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="configOff.png"
                                                             name="Configuration"
                                                             onChange={[Function]}
                                                             value="config"
                                         />
                                         <DivOption
                                                             checked={false}
-                                                            img="panelOff.png"
+                                                            img="dashboardOff.png"
                                                             name="Dashboard"
                                                             onChange={[Function]}
                                                             value="dashboard"
@@ -12219,14 +12219,14 @@ ShallowWrapper {
 >
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="configOff.png"
                                                 name="Configuration"
                                                 onChange={[Function]}
                                                 value="config"
                         />
                         <DivOption
                                                 checked={false}
-                                                img="panelOff.png"
+                                                img="dashboardOff.png"
                                                 name="Dashboard"
                                                 onChange={[Function]}
                                                 value="dashboard"
@@ -12257,14 +12257,14 @@ ShallowWrapper {
                         "children": Array [
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="configOff.png"
                             name="Configuration"
                             onChange={[Function]}
                             value="config"
 />,
                           <DivOption
                             checked={false}
-                            img="panelOff.png"
+                            img="dashboardOff.png"
                             name="Dashboard"
                             onChange={[Function]}
                             value="dashboard"
@@ -12280,7 +12280,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "configOff.png",
                             "name": "Configuration",
                             "onChange": [Function],
                             "value": "config",
@@ -12295,7 +12295,7 @@ ShallowWrapper {
                           "nodeType": "class",
                           "props": Object {
                             "checked": false,
-                            "img": "panelOff.png",
+                            "img": "dashboardOff.png",
                             "name": "Dashboard",
                             "onChange": [Function],
                             "value": "dashboard",
