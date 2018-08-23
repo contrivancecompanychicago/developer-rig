@@ -4,7 +4,6 @@ import { ExtensionViewButton } from '../extension-view-button';
 import { ExtensionMode } from '../constants/extension-coordinator';
 import './component.sass';
 import { RigExtensionView, RigExtension } from '../core/models/rig';
-import { ConfigNames } from '../constants/nav-items'
 
 interface ExtensionViewContainerProps {
   extensionViews: RigExtensionView[];
@@ -14,6 +13,11 @@ interface ExtensionViewContainerProps {
 }
 
 type Props = ExtensionViewContainerProps;
+
+const ConfigNames: { [key: string]: string; } = {
+  [ExtensionMode.Config]: 'Broadcaster Configuration',
+  [ExtensionMode.Dashboard]: 'Broadcaster Live Dashboard',
+};
 
 export class ExtensionViewContainer extends React.Component<Props> {
   private openExtensionViewDialog = () => {

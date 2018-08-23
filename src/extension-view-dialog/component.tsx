@@ -10,17 +10,17 @@ import { DivOption } from './div-option';
 import * as closeButton from '../img/close_icon.png';
 import { MobileOrientation, DefaultMobileOrientation, MobileSizes } from '../constants/mobile';
 import { ManifestViews, getSupportedAnchors, getSupportedPlatforms } from '../core/models/manifest';
-import { ExtensionAnchor, ExtensionMode, ExtensionPlatform } from '../constants/extension-coordinator';
+import { ExtensionAnchor, ExtensionMode, ExtensionPlatform, ExtensionViewType } from '../constants/extension-coordinator';
 
-interface ExtensionViewDialogProps {
+export type ExtensionViewDialogProps = {
   extensionViews: ManifestViews,
   closeHandler: Function,
   saveHandler: Function,
   show?: boolean,
-}
+};
 
-interface State {
-  extensionViewType: ExtensionAnchor | ExtensionMode | ExtensionPlatform;
+export type ExtensionViewDialogState = {
+  extensionViewType: ExtensionAnchor | ExtensionMode | ExtensionPlatform | ExtensionViewType;
   frameSize: string;
   viewerType: string;
   x: number;
@@ -31,7 +31,7 @@ interface State {
   orientation: string;
   opaqueId: string;
   [key: string]: number | string;
-}
+};
 
 const InitialState = {
   extensionViewType: DefaultExtensionType,
@@ -46,8 +46,8 @@ const InitialState = {
   opaqueId: '',
 };
 
-export class ExtensionViewDialog extends React.Component<ExtensionViewDialogProps, State> {
-  public state: State = {
+export class ExtensionViewDialog extends React.Component<ExtensionViewDialogProps, ExtensionViewDialogState> {
+  public state: ExtensionViewDialogState = {
     ...InitialState,
     extensionViewType: getSupportedAnchors(this.props.extensionViews)[0],
   }

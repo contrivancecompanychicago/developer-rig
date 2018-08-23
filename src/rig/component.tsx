@@ -3,7 +3,7 @@ import './component.sass';
 import { RigNav } from '../rig-nav';
 import { ExtensionViewContainer } from '../extension-view-container';
 import { Console } from '../console';
-import { ExtensionViewDialog } from '../extension-view-dialog';
+import { ExtensionViewDialog, ExtensionViewDialogState } from '../extension-view-dialog';
 import { RigConfigurationsDialog } from '../rig-configurations-dialog';
 import { EditViewDialog, EditViewProps } from '../edit-view-dialog';
 import { ProductManagementViewContainer } from '../product-management-container';
@@ -151,7 +151,7 @@ export class RigComponent extends React.Component<Props, State> {
     });
   }
 
-  public getFrameSizeFromDialog(extensionViewDialogState: any) {
+  public getFrameSizeFromDialog(extensionViewDialogState: ExtensionViewDialogState) {
     if (extensionViewDialogState.frameSize === 'Custom') {
       return {
         width: extensionViewDialogState.width,
@@ -165,7 +165,7 @@ export class RigComponent extends React.Component<Props, State> {
     return OverlaySizes[extensionViewDialogState.frameSize];
   }
 
-  public createExtensionView = (extensionViewDialogState: any) => {
+  public createExtensionView = (extensionViewDialogState: ExtensionViewDialogState) => {
     const extensionViews = this.getExtensionViews();
     const mode = extensionViewDialogState.extensionViewType === ExtensionMode.Config ? ExtensionMode.Config :
       extensionViewDialogState.extensionViewType === ExtensionMode.Dashboard ? ExtensionMode.Dashboard : ExtensionMode.Viewer;

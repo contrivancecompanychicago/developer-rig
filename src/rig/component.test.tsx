@@ -6,6 +6,7 @@ import { RigComponent } from './component';
 import { ExtensionAnchors } from '../constants/extension-types';
 import { ViewerTypes } from '../constants/viewer-types';
 import { RigExtensionView } from '../core/models/rig';
+import { ExtensionViewDialog, ExtensionViewDialogState } from '../extension-view-dialog';
 
 import { ExtensionAnchor, ExtensionMode, ExtensionViewType } from '../constants/extension-coordinator';
 
@@ -186,7 +187,7 @@ describe('<RigComponent />', () => {
         height: 0,
         frameSize: 'iPhone X (375x822)',
         extensionViewType: ExtensionViewType.Mobile
-      };
+      } as ExtensionViewDialogState;
       const expectedMobileFrameSize = {
         width: 375,
         height: 822,
@@ -204,11 +205,11 @@ describe('<RigComponent />', () => {
         height: 0,
         frameSize: '640x480',
         extensionViewType: ExtensionViewType.VideoOverlay
-      }
+      } as ExtensionViewDialogState;
       const expectedOverlayFrameSize = {
         width: 640,
         height: 480,
-      }
+      };
       const instance = wrapper.instance() as RigComponent;
       const frameSize = instance.getFrameSizeFromDialog(overlayTestDialogState);
       expect(frameSize).toEqual(expectedOverlayFrameSize);
@@ -221,11 +222,11 @@ describe('<RigComponent />', () => {
         height: 100,
         frameSize: 'Custom',
         extensionViewType: ExtensionViewType.VideoOverlay
-      }
+      } as ExtensionViewDialogState;
       const expectedOverlayFrameSize = {
         width: 100,
         height: 100,
-      }
+      };
       const instance = wrapper.instance() as RigComponent;
       const frameSize = instance.getFrameSizeFromDialog(overlayTestDialogState);
       expect(frameSize).toEqual(expectedOverlayFrameSize);
